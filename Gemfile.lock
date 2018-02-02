@@ -1,0 +1,87 @@
+PATH
+  remote: .
+  specs:
+    gem_template (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    ast (2.3.0)
+    childprocess (0.7.1)
+      ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.2)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    diff-lcs (1.3)
+    docile (1.1.5)
+    ffi (1.9.18)
+    hashdiff (0.3.7)
+    iniparse (1.4.4)
+    json (2.1.0)
+    method_source (0.9.0)
+    overcommit (0.41.0)
+      childprocess (~> 0.6, >= 0.6.3)
+      iniparse (~> 1.4)
+    parallel (1.12.1)
+    parser (2.4.0.2)
+      ast (~> 2.3)
+    powerpack (0.1.1)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    public_suffix (3.0.1)
+    rainbow (3.0.0)
+    rake (10.5.0)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.0)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.0)
+    rubocop (0.52.0)
+      parallel (~> 1.10)
+      parser (>= 2.4.0.2, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.9.0)
+    safe_yaml (1.0.4)
+    simplecov (0.15.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.2)
+    unicode-display_width (1.3.0)
+    vcr (3.0.3)
+    webmock (3.1.1)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  gem_template!
+  overcommit (~> 0.40)
+  pry (~> 0.10)
+  rake (~> 10.0)
+  rspec (~> 3.0)
+  rubocop (~> 0.49)
+  simplecov (~> 0.14)
+  vcr (~> 3.0)
+  webmock (~> 3.0)
+
+BUNDLED WITH
+   1.16.1
