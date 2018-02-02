@@ -22,7 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Before you start using gem_template you have to configure it.
+
+```ruby
+GemTemplate.configure do |config|
+  config.base_url = 'https://example.com/'
+  config.username = 'your username'
+  config.password = 'your password'
+end
+```
+And enjoy its features.
 
 ## Development
 
