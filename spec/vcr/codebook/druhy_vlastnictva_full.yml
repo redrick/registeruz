@@ -1,0 +1,29 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.registeruz.sk/cruz-public/api/druhy-vlastnictva
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '733'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{"klasifikacie":[{"kod":"0","nazov":{"sk":"Zatiaľ nezistené","en":"Not
+        ascertained yet"}},{"kod":"1","nazov":{"sk":"Medzinárodné - verejné","en":"Internatonial-public"}},{"kod":"2","nazov":{"sk":"Súkromné
+        tuzemské","en":"Private inland"}},{"kod":"3","nazov":{"sk":"Družstevné","en":"Cooperative-owned"}},{"kod":"4","nazov":{"sk":"Štátne","en":"State-owned"}},{"kod":"5","nazov":{"sk":"Vlast.územnej
+        samosprávy","en":"Municipality-owned"}},{"kod":"6","nazov":{"sk":"Združ.,p.strany,cirkvi","en":"Ownership
+        of associat."}},{"kod":"7","nazov":{"sk":"Zahraničné","en":"Foreign"}},{"kod":"8","nazov":{"sk":"Medzinárodné
+        - súkromné","en":"International-private"}},{"kod":"9","nazov":{"sk":"Zmiešané","en":"Mixed"}}]}'
+    http_version: 
+  recorded_at: Sat, 03 Feb 2018 14:27:31 GMT
+recorded_with: VCR 3.0.3

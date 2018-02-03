@@ -139,6 +139,24 @@ First param is name of the codebook, you can use one of these:
 - `okresy`
 - `sidla`
 
+if you do not pass second param, it will return the whole collection hash and
+you can search for whatever you were looking for this way:
+
+```ruby
+Registeruz::Api::Codebook.find('druhy-vlastnictva')
+
+=> [{"nazov"=>{"sk"=>"Zatiaľ nezistené", "en"=>"Not ascertained yet"},"kod"=>"0"},
+ {"nazov"=>{"sk"=>"Medzinárodné - verejné", "en"=>"Internatonial-public"},"kod"=>"1"},
+ {"nazov"=>{"sk"=>"Súkromné tuzemské", "en"=>"Private inland"}, "kod"=>"2"},
+ {"nazov"=>{"sk"=>"Družstevné", "en"=>"Cooperative-owned"}, "kod"=>"3"},
+ {"nazov"=>{"sk"=>"Štátne", "en"=>"State-owned"}, "kod"=>"4"},
+ {"nazov"=>{"sk"=>"Vlast.územnej samosprávy", "en"=>"Municipality-owned"},"kod"=>"5"},
+ {"nazov"=>{"sk"=>"Združ.,p.strany,cirkvi", "en"=>"Ownership of associat."}, "kod"=>"6"},
+ {"nazov"=>{"sk"=>"Zahraničné", "en"=>"Foreign"}, "kod"=>"7"},
+ {"nazov"=>{"sk"=>"Medzinárodné - súkromné", "en"=>"International-private"}, "kod"=>"8"},
+ {"nazov"=>{"sk"=>"Zmiešané", "en"=>"Mixed"}, "kod"=>"9"}]
+```
+
 Enjoy!
 
 ## Development
