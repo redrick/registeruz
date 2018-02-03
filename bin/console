@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'bundler/setup'
-require 'gem_template'
+require 'registeruz'
 
 require 'pry'
 Pry.start

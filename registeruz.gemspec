@@ -2,17 +2,17 @@
 
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gem_template/version'
+require 'registeruz/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'gem_template'
-  spec.version       = GemTemplate::VERSION
+  spec.name          = 'registeruz'
+  spec.version       = Registeruz::VERSION
   spec.authors       = ['Andrej Antas']
   spec.email         = ['andrej@antas.cz']
 
-  spec.summary       = 'Write a short summary, because RubyGems requires one.'
-  spec.description   = 'Write a longer description or delete this line.'
-  spec.homepage      = 'https://github.com/redrick/gem_template'
+  spec.summary       = 'Ruby wrapper pre verejne API registeruz.sk'
+  spec.description   = 'Prehladavanie Slopvenskych subjektov podla ICO a vratenie subjektu s adresou atd.'
+  spec.homepage      = 'https://github.com/redrick/registeruz'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

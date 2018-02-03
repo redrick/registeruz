@@ -1,5 +1,5 @@
 require 'bundler/setup'
-require 'gem_template'
+require 'registeruz'
 
 require 'support/vcr'
 require 'pry'
@@ -17,11 +17,5 @@ RSpec.configure do |config|
 
   config.expect_with :rspec do |c|
     c.syntax = :expect
-  end
-
-  GemTemplate.configure do |c|
-    c.username = 'FIXME'
-    c.password = 'FIXME'
-    c.base_url = 'FIXME'
   end
 end

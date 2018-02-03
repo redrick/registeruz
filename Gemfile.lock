@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gem_template (0.1.0)
+    registeruz (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -73,10 +73,10 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  gem_template!
   overcommit (~> 0.40)
   pry (~> 0.10)
   rake (~> 10.0)
+  registeruz!
   rspec (~> 3.0)
   rubocop (~> 0.49)
   simplecov (~> 0.14)
