@@ -1,6 +1,6 @@
 AllCops:
   Exclude:
-    - 'gem_template.gemspec'
+    - 'registeruz.gemspec'
     - 'spec/**/*'
   TargetRubyVersion: 2.3
 
