@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.registeruz.sk/cruz-public/api/test
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Length:
+      - '6625'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "\n\n\n\n\n\n\r\n\r\n\n\n\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!DOCTYPE
+        html>\r\n<!--[if lt IE 8]>\r\n<html class=\"ie7 lt_ie8 lt_ie9 lt_ie10\">\r\n<![endif]-->\r\n<!--[if
+        IE 8]>\r\n<html class=\"ie8 lt_ie9 lt_ie10\">\r\n<![endif]-->\r\n<!--[if IE
+        9]>\r\n<html class=\"ie9 lt_ie10\">\r\n<![endif]-->\r\n<!--[if gt IE 9]>\r\n<html>\r\n<!--<![endif]-->\r\n\r\n<head>\r\n\t<title>Stránka
+        nebola nájdená | registeruz.sk</title>\r\n\r\n\t<meta name=\"description\"
+        content=\"\">\r\n\t<meta charset=\"utf-8\">\r\n\t<meta name=\"viewport\" content=\"width=1024\">\r\n\r\n\t<link
+        rel=\"shortcut icon\" href=\"/cruz-public/version/206463/static/img/favicon.ico\"
+        type=\"image/ico\"/>\r\n\r\n\t<link rel=\"stylesheet\" href=\"/cruz-public/version/206463/static/css/default.css\"/>\r\n\t<link
+        rel=\"stylesheet\" href=\"/cruz-public/version/206463/static/css/978.css\"/>\r\n\t<link
+        rel=\"stylesheet\" href=\"/cruz-public/version/206463/static/css/jquery.selectbox.css\"/>\r\n\t<link
+        rel=\"stylesheet\" href=\"/cruz-public/version/206463/static/css/tiptip.css\"/>\r\n\t<link
+        rel=\"stylesheet\" href=\"/cruz-public/version/206463/static/css/style.css\"/>\r\n\r\n\t\r\n\r\n\t<noscript>\r\n\t\t<link
+        rel=\"stylesheet\" href=\"/cruz-public/version/206463/static/css/no_script.css\"/>\r\n\t</noscript>\r\n\r\n\t<script
+        src=\"/cruz-public/version/206463/static/scripts/jquery-1.8.x.min.js\"></script>\r\n\t<script
+        src=\"/cruz-public/version/206463/static/scripts/jquery.selectbox-cruz.js\"></script>\r\n\t<script
+        src=\"/cruz-public/version/206463/static/scripts/jquery.tiptip.min.js\"></script>\r\n\t<script
+        src=\"/cruz-public/version/206463/static/scripts/jquery.rotate.min.js\"></script>\r\n\t<script
+        src=\"/cruz-public/version/206463/static/scripts/spin.min.js\"></script>\r\n\t<script
+        src=\"/cruz-public/version/206463/static/scripts/javascript.js\"></script>\r\n\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\t<script>\r\n\t\t\t(function
+        (i, s, o, g, r, a, m) {\r\n\t\t\t\ti['GoogleAnalyticsObject'] = r;\r\n\t\t\t\ti[r]
+        = i[r] || function () {\r\n\t\t\t\t\t(i[r].q = i[r].q || []).push(arguments)\r\n\t\t\t\t},
+        i[r].l = 1 * new Date();\r\n\t\t\t\ta = s.createElement(o),\r\n\t\t\t\t\tm
+        = s.getElementsByTagName(o)[0];\r\n\t\t\t\ta.async = 1;\r\n\t\t\t\ta.src =
+        g;\r\n\t\t\t\tm.parentNode.insertBefore(a, m)\r\n\t\t\t})(window, document,
+        'script', '//www.google-analytics.com/analytics.js', 'ga');\r\n\r\n\t\t\tga('create',
+        'UA-3033131-5', 'registeruz.sk');\r\n\t\t\tga('send', 'pageview');\r\n\t\t</script>\r\n\t\r\n\r\n\t\r\n</head>\r\n<body>\r\n<div
+        class=\"layout-978\">\r\n\t\r\n\r\n\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div
+        id=\"header\" class=\"row\">\r\n\t<div class=\"col2 logo\">\r\n        <a
+        href=\"/cruz-public/domain/accountingentity/simplesearch;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">\r\n
+        \           <img src=\"/cruz-public/version/206463/static/img/logo.png\" alt=\"logo\"
+        title=\"registeruz.sk\">\r\n        </a>\r\n\t</div>\r\n\t<div class=\"col6
+        title full\">\r\n\t\t<div class=\"main\">\r\n\t\t\tRegister účtovných závierok\r\n\t\t</div>\r\n\t\t<div
+        class=\"sub\">\r\n\t\t\tMinisterstvo financií Slovenskej republiky\r\n\t\t</div>\r\n\t</div>\r\n\t<div
+        class=\"col4 userAccount\">\r\n\t\t<div class=\"account\">\r\n\t\t\t\r\n\t\t</div>\r\n\t</div>\r\n\t<div
+        class=\"row-end\">&nbsp;</div>\r\n</div>\r\n<div id=\"nav_bar\">\r\n\t<ul>\r\n\t\t<li
+        class=\"home\">\r\n            <a href=\"/cruz-public/domain/accountingentity/simplesearch;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">\r\n
+        \               <img src=\"/cruz-public/version/206463/static/img/home.png\"
+        alt=\"home\" title=\"registeruz.sk\">Vyhľadávanie\r\n            </a>\r\n\t\t</li>\r\n\t\t<li>\r\n\t\t\t<a
+        href=\"/cruz-public/home;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">Čo
+        je register účtovných závierok</a>\r\n\t\t</li>\r\n\t\t<li>\r\n\t\t\t<a href=\"/cruz-public/home/faq;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">Často
+        kladené otázky</a>\r\n\t\t</li>\r\n\t\t<li>\r\n\t\t\t<a href=\"/cruz-public/home/contact;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">Kontakty</a>\r\n\t\t</li>\r\n\t\t\r\n\t</ul>\r\n</div>\r\n\t<span
+        id=\"loader\">\r\n\t\t<img src=\"/cruz-public/version/206463/static/img/loadernew.gif\"
+        data-path-for-ie=\"/cruz-public/version/206463/static/img/loadernew.gif?\"
+        alt=\"loader\" title=\"loader\" id=\"img-load\">\r\n\t\t<span id=\"loader-title\">Načítavam
+        ...</span>\r\n\t</span>\r\n\t\n\t<div id=\"text_page\">\n\t\t<h1 id=\"content_title\">\n\t\t\tStránka
+        nebola nájdená\n\t\t</h1>\n\n\t\t<div class=\"text standard\">\n\t\t\tStránka,
+        ktorú požadujete otvoriť, neexistuje.\n\t\t</div>\n\t</div>\n\r\n\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div
+        id=\"footer\" class=\"row\">\r\n\t<div class=\"col4 links\">\r\n\t\t<ul>\r\n\t\t\t<li>\r\n\t\t\t\t<span
+        class=\"arrow\">&raquo;</span>\r\n\t\t\t\t<a href=\"/cruz-public/home;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">Čo
+        je register účtovných závierok</a>\r\n\t\t\t</li>\r\n\t\t\t<li>\r\n\t\t\t\t<span
+        class=\"arrow\">&raquo;</span>\r\n\t\t\t\t<a href=\"/cruz-public/home/about;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">Čo
+        je účtovná závierka</a>\r\n\t\t\t</li>\r\n\t\t\t<li>\r\n\t\t\t\t<span class=\"arrow\">&raquo;</span>\r\n\t\t\t\t\r\n\t\t\t\t<a
+        href=\"http://www.registeruz.sk/cruz-public/content/Manual-verejny.pdf\">Príručka
+        používateľa</a>\r\n\t\t\t</li>\r\n\t\t\t<li>\r\n\t\t\t\t<span class=\"arrow\">&raquo;</span>\r\n\t\t\t\t<a
+        href=\"/cruz-public/home/sitemap;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">Mapa
+        stránok</a>\r\n\t\t\t</li>\r\n\t\t\t\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<span class=\"arrow\">&raquo;</span>\r\n\t\t\t\t\t<a
+        href=\"/cruz-public/home/api;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">Verejné
+        API</a>\r\n\t\t\t\t</li>\r\n\t\t\t\r\n\t\t</ul>\r\n\t</div>\r\n\t<div class=\"col4
+        links\">\r\n\t\t<ul>\r\n\t\t\t<li>\r\n\t\t\t\t<span class=\"arrow\">&raquo;</span>\r\n\t\t\t\t<a
+        href=\"/cruz-public/home/accessdetails;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">Vyhlásenie
+        o prístupnosti</a>\r\n\t\t\t</li>\r\n\t\t\t<li>\r\n\t\t\t\t<span class=\"arrow\">&raquo;</span>\r\n\t\t\t\t<a
+        href=\"/cruz-public/home/contact;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300\">Kontakty</a>\r\n\t\t\t</li>\r\n\t\t</ul>\r\n\t</div>\r\n\t<div
+        class=\"col4 links\">\r\n\t\t\r\n\t\t\t<ul>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<span
+        class=\"arrow\">&raquo;</span>\r\n\t\t\t\t\t<a href=\"/cruz-public/mobile/;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300?redirectFrom=desktop\">Mobilná
+        verzia</a>\r\n\t\t\t\t</li>\r\n\t\t\t</ul>\r\n\t\t\r\n\t\t<ul>\r\n\t\t\t<li>\r\n\t\t\t\t<span
+        class=\"arrow\">&raquo;</span>\r\n\t\t\t\t<a href=\"/cruz-public/;JSESSIONID_cruz_public=Oqxb5vT3j60aLGdgGpSKE3U6wVybK2it57W4mIk7kkBECpw9GmXm!-469715300?lang=en\">English
+        version</a>\r\n\t\t\t</li>\r\n\t\t</ul>\r\n\t\t<div id=\"copyright\">\r\n\t\t\t\r\n\t\t\tCopyright
+        &copy; 2011-Sat Feb 03 14:41:58 CET 2018\r\n\t\t\t<br/>\r\n\t\t\tMinisterstvo
+        financií Slovenskej republiky\r\n\t\t</div>\r\n\t</div>\r\n\t<div class=\"row-end\">&nbsp;</div>\r\n</div>\r\n\r\n</div>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Sat, 03 Feb 2018 13:41:58 GMT
+recorded_with: VCR 3.0.3

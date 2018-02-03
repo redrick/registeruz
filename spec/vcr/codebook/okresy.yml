@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.registeruz.sk/cruz-public/api/okresy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '6544'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{"lokacie":[{"nazov":{"sk":"Bratislava I","en":"Bratislava I"},"nadradenaLokacia":1,"kod":"101"},{"nazov":{"sk":"Bratislava
+        II","en":"Bratislava II"},"nadradenaLokacia":1,"kod":"102"},{"nazov":{"sk":"Bratislava
+        III","en":"Bratislava III"},"nadradenaLokacia":1,"kod":"103"},{"nazov":{"sk":"Bratislava
+        IV","en":"Bratislava IV"},"nadradenaLokacia":1,"kod":"104"},{"nazov":{"sk":"Bratislava
+        V","en":"Bratislava V"},"nadradenaLokacia":1,"kod":"105"},{"nazov":{"sk":"Malacky","en":"Malacky"},"nadradenaLokacia":1,"kod":"106"},{"nazov":{"sk":"Pezinok","en":"Pezinok"},"nadradenaLokacia":1,"kod":"107"},{"nazov":{"sk":"Senec","en":"Senec"},"nadradenaLokacia":1,"kod":"108"},{"nazov":{"sk":"Dunajská
+        Streda","en":"Dunajská Streda"},"nadradenaLokacia":2,"kod":"201"},{"nazov":{"sk":"Galanta","en":"Galanta"},"nadradenaLokacia":2,"kod":"202"},{"nazov":{"sk":"Hlohovec","en":"Hlohovec"},"nadradenaLokacia":2,"kod":"203"},{"nazov":{"sk":"Piešťany","en":"Piešťany"},"nadradenaLokacia":2,"kod":"204"},{"nazov":{"sk":"Senica","en":"Senica"},"nadradenaLokacia":2,"kod":"205"},{"nazov":{"sk":"Skalica","en":"Skalica"},"nadradenaLokacia":2,"kod":"206"},{"nazov":{"sk":"Trnava","en":"Trnava"},"nadradenaLokacia":2,"kod":"207"},{"nazov":{"sk":"Bánovce
+        nad Bebravou","en":"Bánovce nad Bebravou"},"nadradenaLokacia":3,"kod":"301"},{"nazov":{"sk":"Ilava","en":"Ilava"},"nadradenaLokacia":3,"kod":"302"},{"nazov":{"sk":"Myjava","en":"Myjava"},"nadradenaLokacia":3,"kod":"303"},{"nazov":{"sk":"Nové
+        Mesto nad Váhom","en":"Nové Mesto nad Váhom"},"nadradenaLokacia":3,"kod":"304"},{"nazov":{"sk":"Partizánske","en":"Partizánske"},"nadradenaLokacia":3,"kod":"305"},{"nazov":{"sk":"Považská
+        Bystrica","en":"Považská Bystrica"},"nadradenaLokacia":3,"kod":"306"},{"nazov":{"sk":"Prievidza","en":"Prievidza"},"nadradenaLokacia":3,"kod":"307"},{"nazov":{"sk":"Púchov","en":"Púchov"},"nadradenaLokacia":3,"kod":"308"},{"nazov":{"sk":"Trenčín","en":"Trenčín"},"nadradenaLokacia":3,"kod":"309"},{"nazov":{"sk":"Komárno","en":"Komárno"},"nadradenaLokacia":4,"kod":"401"},{"nazov":{"sk":"Levice","en":"Levice"},"nadradenaLokacia":4,"kod":"402"},{"nazov":{"sk":"Nitra","en":"Nitra"},"nadradenaLokacia":4,"kod":"403"},{"nazov":{"sk":"Nové
+        Zámky","en":"Nové Zámky"},"nadradenaLokacia":4,"kod":"404"},{"nazov":{"sk":"Šaľa","en":"Šaľa"},"nadradenaLokacia":4,"kod":"405"},{"nazov":{"sk":"Topoľčany","en":"Topoľčany"},"nadradenaLokacia":4,"kod":"406"},{"nazov":{"sk":"Zlaté
+        Moravce","en":"Zlaté Moravce"},"nadradenaLokacia":4,"kod":"407"},{"nazov":{"sk":"Bytča","en":"Bytča"},"nadradenaLokacia":5,"kod":"501"},{"nazov":{"sk":"Čadca","en":"Čadca"},"nadradenaLokacia":5,"kod":"502"},{"nazov":{"sk":"Dolný
+        Kubín","en":"Dolný Kubín"},"nadradenaLokacia":5,"kod":"503"},{"nazov":{"sk":"Kysucké
+        Nové Mesto","en":"Kysucké Nové Mesto"},"nadradenaLokacia":5,"kod":"504"},{"nazov":{"sk":"Liptovský
+        Mikuláš","en":"Liptovský Mikuláš"},"nadradenaLokacia":5,"kod":"505"},{"nazov":{"sk":"Martin","en":"Martin"},"nadradenaLokacia":5,"kod":"506"},{"nazov":{"sk":"Námestovo","en":"Námestovo"},"nadradenaLokacia":5,"kod":"507"},{"nazov":{"sk":"Ružomberok","en":"Ružomberok"},"nadradenaLokacia":5,"kod":"508"},{"nazov":{"sk":"Turčianske
+        Teplice","en":"Turčianske Teplice"},"nadradenaLokacia":5,"kod":"509"},{"nazov":{"sk":"Tvrdošín","en":"Tvrdošín"},"nadradenaLokacia":5,"kod":"510"},{"nazov":{"sk":"Žilina","en":"Žilina"},"nadradenaLokacia":5,"kod":"511"},{"nazov":{"sk":"Banská
+        Bystrica","en":"Banská Bystrica"},"nadradenaLokacia":6,"kod":"601"},{"nazov":{"sk":"Banská
+        Štiavnica","en":"Banská Štiavnica"},"nadradenaLokacia":6,"kod":"602"},{"nazov":{"sk":"Brezno","en":"Brezno"},"nadradenaLokacia":6,"kod":"603"},{"nazov":{"sk":"Detva","en":"Detva"},"nadradenaLokacia":6,"kod":"604"},{"nazov":{"sk":"Krupina","en":"Krupina"},"nadradenaLokacia":6,"kod":"605"},{"nazov":{"sk":"Lučenec","en":"Lučenec"},"nadradenaLokacia":6,"kod":"606"},{"nazov":{"sk":"Poltár","en":"Poltár"},"nadradenaLokacia":6,"kod":"607"},{"nazov":{"sk":"Revúca","en":"Revúca"},"nadradenaLokacia":6,"kod":"608"},{"nazov":{"sk":"Rimavská
+        Sobota","en":"Rimavská Sobota"},"nadradenaLokacia":6,"kod":"609"},{"nazov":{"sk":"Veľký
+        Krtíš","en":"Veľký Krtíš"},"nadradenaLokacia":6,"kod":"610"},{"nazov":{"sk":"Zvolen","en":"Zvolen"},"nadradenaLokacia":6,"kod":"611"},{"nazov":{"sk":"Žarnovica","en":"Žarnovica"},"nadradenaLokacia":6,"kod":"612"},{"nazov":{"sk":"Žiar
+        nad Hronom","en":"Žiar nad Hronom"},"nadradenaLokacia":6,"kod":"613"},{"nazov":{"sk":"Bardejov","en":"Bardejov"},"nadradenaLokacia":7,"kod":"701"},{"nazov":{"sk":"Humenné","en":"Humenné"},"nadradenaLokacia":7,"kod":"702"},{"nazov":{"sk":"Kežmarok","en":"Kežmarok"},"nadradenaLokacia":7,"kod":"703"},{"nazov":{"sk":"Levoča","en":"Levoča"},"nadradenaLokacia":7,"kod":"704"},{"nazov":{"sk":"Medzilaborce","en":"Medzilaborce"},"nadradenaLokacia":7,"kod":"705"},{"nazov":{"sk":"Poprad","en":"Poprad"},"nadradenaLokacia":7,"kod":"706"},{"nazov":{"sk":"Prešov","en":"Prešov"},"nadradenaLokacia":7,"kod":"707"},{"nazov":{"sk":"Sabinov","en":"Sabinov"},"nadradenaLokacia":7,"kod":"708"},{"nazov":{"sk":"Snina","en":"Snina"},"nadradenaLokacia":7,"kod":"709"},{"nazov":{"sk":"Stará
+        Ľubovňa","en":"Stará Ľubovňa"},"nadradenaLokacia":7,"kod":"710"},{"nazov":{"sk":"Stropkov","en":"Stropkov"},"nadradenaLokacia":7,"kod":"711"},{"nazov":{"sk":"Svidník","en":"Svidník"},"nadradenaLokacia":7,"kod":"712"},{"nazov":{"sk":"Vranov
+        nad Topľou","en":"Vranov nad Topľou"},"nadradenaLokacia":7,"kod":"713"},{"nazov":{"sk":"Gelnica","en":"Gelnica"},"nadradenaLokacia":8,"kod":"801"},{"nazov":{"sk":"Košice
+        I","en":"Košice I"},"nadradenaLokacia":8,"kod":"802"},{"nazov":{"sk":"Košice
+        II","en":"Košice II"},"nadradenaLokacia":8,"kod":"803"},{"nazov":{"sk":"Košice
+        III","en":"Košice III"},"nadradenaLokacia":8,"kod":"804"},{"nazov":{"sk":"Košice
+        IV","en":"Košice IV"},"nadradenaLokacia":8,"kod":"805"},{"nazov":{"sk":"Košice
+        - okolie","en":"Košice - okolie"},"nadradenaLokacia":8,"kod":"806"},{"nazov":{"sk":"Michalovce","en":"Michalovce"},"nadradenaLokacia":8,"kod":"807"},{"nazov":{"sk":"Rožňava","en":"Rožňava"},"nadradenaLokacia":8,"kod":"808"},{"nazov":{"sk":"Sobrance","en":"Sobrance"},"nadradenaLokacia":8,"kod":"809"},{"nazov":{"sk":"Spišská
+        Nová Ves","en":"Spišská Nová Ves"},"nadradenaLokacia":8,"kod":"810"},{"nazov":{"sk":"Trebišov","en":"Trebišov"},"nadradenaLokacia":8,"kod":"811"},{"nazov":{"sk":"Zahraničie","en":"Abroad"},"nadradenaLokacia":9,"kod":"999"}]}'
+    http_version: 
+  recorded_at: Sat, 03 Feb 2018 13:41:57 GMT
+recorded_with: VCR 3.0.3

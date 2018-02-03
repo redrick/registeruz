@@ -1,0 +1,30 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.registeruz.sk/cruz-public/api/kraje
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '646'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{"lokacie":[{"nazov":{"sk":"Bratislavský kraj","en":"Region of Bratislava"},"kod":"1"},{"nazov":{"sk":"Trnavský
+        kraj","en":"Region of Trnava"},"kod":"2"},{"nazov":{"sk":"Trenčiansky kraj","en":"Region
+        of Trenčín"},"kod":"3"},{"nazov":{"sk":"Nitriansky kraj","en":"Region of Nitra"},"kod":"4"},{"nazov":{"sk":"Žilinský
+        kraj","en":"Region of Žilina"},"kod":"5"},{"nazov":{"sk":"Banskobystrický
+        kraj","en":"Reg.of Banská Bystrica"},"kod":"6"},{"nazov":{"sk":"Prešovský
+        kraj","en":"Region of Prešov"},"kod":"7"},{"nazov":{"sk":"Košický kraj","en":"Region
+        of Košice"},"kod":"8"},{"nazov":{"sk":"Zahraničie","en":"Abroad"},"kod":"9"}]}'
+    http_version: 
+  recorded_at: Sat, 03 Feb 2018 13:41:57 GMT
+recorded_with: VCR 3.0.3

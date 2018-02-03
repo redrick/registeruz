@@ -1,0 +1,634 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.registeruz.sk/cruz-public/api/sk-nace
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '55649'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{"klasifikacie":[{"kod":"01110","nazov":{"sk":"Pestov.obilnín","en":"Growing
+        of cereals"}},{"kod":"01120","nazov":{"sk":"Pestov.ryže","en":"Growing of
+        rice"}},{"kod":"01130","nazov":{"sk":"Pestov.zeleniny,melónov","en":"Growing
+        of vegetables"}},{"kod":"01140","nazov":{"sk":"Pestov.cukrovej trstiny","en":"Growing
+        of sugar cane"}},{"kod":"01150","nazov":{"sk":"Pestov.tabaku","en":"Growing
+        of tobacco"}},{"kod":"01160","nazov":{"sk":"Pestov.plodín na vlákno","en":"Growing
+        of fibre crops"}},{"kod":"01190","nazov":{"sk":"Pestov.ost.netrvác.plod.","en":"Grow.of
+        ot.non-per.crops"}},{"kod":"01210","nazov":{"sk":"Pestov.hrozna","en":"Growing
+        of grapes"}},{"kod":"01220","nazov":{"sk":"Pestov.tropického ovocia","en":"Grow.of
+        tropical fruits"}},{"kod":"01230","nazov":{"sk":"Pestov.citrus.plodov","en":"Growing
+        of citrus fruits"}},{"kod":"01240","nazov":{"sk":"Pestov.jadrového ovocia","en":"Growing
+        of pome fruits"}},{"kod":"01250","nazov":{"sk":"Pestov.ost.strom.ovocia","en":"Grow.of
+        oth.tree fruits"}},{"kod":"01260","nazov":{"sk":"Pestov.olejnatého ovocia","en":"Grow.of
+        oleagin.fruits"}},{"kod":"01270","nazov":{"sk":"Pestov.nápojových plodín","en":"Grow.of
+        beverage crops"}},{"kod":"01280","nazov":{"sk":"Pestov.korenín","en":"Growing
+        of spices"}},{"kod":"01290","nazov":{"sk":"Pestov.ost.trvác.plodín","en":"Grow.of
+        oth.peren.crops"}},{"kod":"01300","nazov":{"sk":"Rozmnožovanie rastlín","en":"Plant
+        propagation"}},{"kod":"01410","nazov":{"sk":"Chov dojníc","en":"Raising of
+        dairy cattle"}},{"kod":"01420","nazov":{"sk":"Chov ost.dobytka,byvolov","en":"Raising
+        of other cattle"}},{"kod":"01430","nazov":{"sk":"Chov koní","en":"Raising
+        of horses"}},{"kod":"01440","nazov":{"sk":"Chov tiav","en":"Raising of camels"}},{"kod":"01450","nazov":{"sk":"Chov
+        oviec a kôz","en":"Raising of sheep,goats"}},{"kod":"01460","nazov":{"sk":"Chov
+        ošípaných","en":"Raising of swine/pigs"}},{"kod":"01470","nazov":{"sk":"Chov
+        hydiny","en":"Raising of poultry"}},{"kod":"01491","nazov":{"sk":"Chov hospodár.zvierat","en":"Raising
+        of farm.animals"}},{"kod":"01492","nazov":{"sk":"Chov kožušin.zvierat","en":"Raising
+        of fur animals"}},{"kod":"01493","nazov":{"sk":"Chov dom.neúžit.zvierat","en":"Rais.of
+        unuseful animals"}},{"kod":"01494","nazov":{"sk":"Chov zveriny","en":"Raising
+        of venison"}},{"kod":"01495","nazov":{"sk":"Chov laboratór.zvierat","en":"Raising
+        of laborat.anim."}},{"kod":"01499","nazov":{"sk":"Chov i.drob.hosp.zvierat","en":"Rais.of
+        oth.farm.anim."}},{"kod":"01500","nazov":{"sk":"Zmiešané hospodárstvo","en":"Mixed
+        farming"}},{"kod":"01610","nazov":{"sk":"Služ.súvis.s pestovaním","en":"Supp.act.for
+        crop prod."}},{"kod":"01620","nazov":{"sk":"Služ.súvis.s chov.zvier.","en":"Supp.act.for
+        anim.prod."}},{"kod":"01630","nazov":{"sk":"Služ.súvis.so zber.úrody","en":"Post-harvest
+        crop activ."}},{"kod":"01640","nazov":{"sk":"Sprac.semien na sadenie","en":"Seed
+        proces.for propagat"}},{"kod":"01700","nazov":{"sk":"Lov,odchyt a súv.služ.","en":"Hunting,
+        trapping"}},{"kod":"02100","nazov":{"sk":"Lesné hospodárstvo","en":"Silviculture"}},{"kod":"02200","nazov":{"sk":"Ťažba
+        dreva","en":"Logging"}},{"kod":"02300","nazov":{"sk":"Zber divorastúceho mat.","en":"Gather.of
+        wild grow.prod"}},{"kod":"02401","nazov":{"sk":"Služ.súvis.s lesníctvom","en":"Forestry
+        serv.activities"}},{"kod":"02402","nazov":{"sk":"Služ.súvis.s ťažb.dreva","en":"Logging
+        serv.activities"}},{"kod":"02409","nazov":{"sk":"Ost.služ.posk.v lesníc.","en":"Oth.sup.serv.to
+        forestry"}},{"kod":"03110","nazov":{"sk":"Morský rybolov","en":"Marine fishing"}},{"kod":"03120","nazov":{"sk":"Riečny
+        rybolov","en":"Freshwater fishing"}},{"kod":"03210","nazov":{"sk":"Morská
+        akvakultúra","en":"Marine aquaculture"}},{"kod":"03220","nazov":{"sk":"Riečna
+        akvakultúra","en":"Freshwater aquaculture"}},{"kod":"05100","nazov":{"sk":"Ťažba
+        čierneho uhlia","en":"Mining of hard coal"}},{"kod":"05200","nazov":{"sk":"Ťažba
+        lignitu","en":"Mining of lignite"}},{"kod":"06100","nazov":{"sk":"Ťažba ropy","en":"Extr.of
+        crude petroleum"}},{"kod":"06200","nazov":{"sk":"Ťažba zemného plynu","en":"Extract.of
+        natural gas"}},{"kod":"07100","nazov":{"sk":"Dobývanie železných rúd","en":"Mining
+        of iron ores"}},{"kod":"07210","nazov":{"sk":"Dobývanie uránových rúd","en":"Mining.of
+        uran,thor.ores"}},{"kod":"07290","nazov":{"sk":"Dobýv.ost.neželez.rúd","en":"Min.of
+        ot.non-fer.me.or."}},{"kod":"08110","nazov":{"sk":"Dobýv.dekorač.kameňa","en":"Quarry.of
+        building stone"}},{"kod":"08120","nazov":{"sk":"Prevádzka štrkovísk","en":"Oper.of
+        gravel,sand pits"}},{"kod":"08910","nazov":{"sk":"Ťažba chem.,hnoj.nerast.","en":"Min.of
+        chem,fertil.miner"}},{"kod":"08920","nazov":{"sk":"Ťažba rašeliny","en":"Extraction
+        of peat"}},{"kod":"08930","nazov":{"sk":"Ťažba soli","en":"Extraction of salt"}},{"kod":"08990","nazov":{"sk":"Iná
+        ťažba i.n.","en":"Oth.mining,quarryi.n.e.c"}},{"kod":"09100","nazov":{"sk":"Pom.čin.pri
+        ťažbe ropy","en":"Sup.act.for petrol.extr."}},{"kod":"09900","nazov":{"sk":"Pom.čin.pri
+        i.ťažbách","en":"Supp.act.for oth.mining"}},{"kod":"10110","nazov":{"sk":"Spracov.a
+        konzerv.mäsa","en":"Processing of meat"}},{"kod":"10120","nazov":{"sk":"Spracov.hydin.mäsa","en":"Process.of
+        poultry meat"}},{"kod":"10130","nazov":{"sk":"Spracov.mäsových výr.","en":"Production
+        of meat"}},{"kod":"10200","nazov":{"sk":"Spracov.a konzerv.rýb","en":"Processing
+        of fish"}},{"kod":"10310","nazov":{"sk":"Spracov.a konz.zemiak.","en":"Processing
+        of potatoes"}},{"kod":"10320","nazov":{"sk":"Výroba ovoc.,zel.šťavy","en":"Manuf.of
+        fruit,veg.juice"}},{"kod":"10390","nazov":{"sk":"Iné spracov.ovocia,zel.","en":"Oth.proc.of
+        fruit,veget."}},{"kod":"10410","nazov":{"sk":"Výroba olejov a tukov","en":"Manufacture
+        of oils,fats"}},{"kod":"10420","nazov":{"sk":"Výroba margarínu","en":"Manufacture
+        of margarine"}},{"kod":"10510","nazov":{"sk":"Prevádzka mliekarní","en":"Operation
+        of dairies"}},{"kod":"10520","nazov":{"sk":"Výroba zmrzliny","en":"Manufacture
+        of ice cream"}},{"kod":"10610","nazov":{"sk":"Výr.mlynských výrobkov","en":"Man.of
+        grain mill prod."}},{"kod":"10620","nazov":{"sk":"Výroba škrobu","en":"Manufacture
+        of starches"}},{"kod":"10710","nazov":{"sk":"Výroba chleba","en":"Manufacture
+        of bread"}},{"kod":"10720","nazov":{"sk":"Výroba suchárov a keksov","en":"Manuf.of
+        rusks,biscuits"}},{"kod":"10730","nazov":{"sk":"Výroba cestovín","en":"Manufacture
+        of macaroni"}},{"kod":"10810","nazov":{"sk":"Výroba cukru","en":"Manufacture
+        of sugar"}},{"kod":"10820","nazov":{"sk":"Výroba kakaa,čokolády","en":"Manuf.of
+        cocoa,chochol."}},{"kod":"10830","nazov":{"sk":"Spracov.čaju a kávy","en":"Processing
+        of tea,coffee"}},{"kod":"10840","nazov":{"sk":"Výroba korenín","en":"Manuf.of
+        condiments"}},{"kod":"10850","nazov":{"sk":"Výroba pokrmov,jedla","en":"Manuf.of
+        prepared meals"}},{"kod":"10860","nazov":{"sk":"Výroba homog.,diét.potr.","en":"Manuf.of
+        homogenis.food"}},{"kod":"10890","nazov":{"sk":"Výroba ost.potrav.výr.","en":"Manuf.of
+        oth.food pr.nec"}},{"kod":"10910","nazov":{"sk":"Výroba krmív hosp.zvier.","en":"Man.of
+        feeds for farm.an"}},{"kod":"10920","nazov":{"sk":"Výroba krmív dom.zvierat","en":"Man.of
+        prepar.pet foods"}},{"kod":"11010","nazov":{"sk":"Destilovanie alkoholu","en":"Distilling
+        of spirits"}},{"kod":"11020","nazov":{"sk":"Výroba hroznového vína","en":"Manuf.of
+        wine from grape"}},{"kod":"11030","nazov":{"sk":"Výroba jablčného vína","en":"Manufacture
+        of cider"}},{"kod":"11040","nazov":{"sk":"Výroba i.kvas.nápojov","en":"Man.of
+        oth.non-dist.bev."}},{"kod":"11050","nazov":{"sk":"Výroba piva","en":"Manufacture
+        of beer"}},{"kod":"11060","nazov":{"sk":"Výroba sladu","en":"Manufacture of
+        malt"}},{"kod":"11070","nazov":{"sk":"Výroba nealkohol.náp.","en":"Manuf.of
+        soft drinks"}},{"kod":"12000","nazov":{"sk":"Výroba tabakových výr.","en":"Manuf.of
+        tobac.products"}},{"kod":"13100","nazov":{"sk":"Príprava text.vlákien","en":"Preparat.of
+        text.fibres"}},{"kod":"13200","nazov":{"sk":"Tkanie textilu","en":"Weaving
+        of textiles"}},{"kod":"13300","nazov":{"sk":"Konečná úprava textilu","en":"Finishing
+        of textiles"}},{"kod":"13910","nazov":{"sk":"Výr.pleteného textilu","en":"Manuf.of
+        knitted fabrics"}},{"kod":"13921","nazov":{"sk":"Výroba posteľ.bielizne","en":"Manufacture
+        of bed linen"}},{"kod":"13922","nazov":{"sk":"Výr.dopln.okr.kobercov","en":"Manuf.of
+        furnishing art."}},{"kod":"13929","nazov":{"sk":"Výr.ost.text.okr.odevov","en":"Man.of
+        oth.made-up te.ar"}},{"kod":"13930","nazov":{"sk":"Výroba kobercov a rohoží","en":"Manufacture
+        of carpets"}},{"kod":"13940","nazov":{"sk":"Výroba povrazov","en":"Manuf.of
+        cordage,rope"}},{"kod":"13950","nazov":{"sk":"Výroba netkaného textilu","en":"Manuf.
+        of non-wovens"}},{"kod":"13960","nazov":{"sk":"Výr.ost.technic.textilu","en":"Manuf.of
+        oth.techn.text."}},{"kod":"13990","nazov":{"sk":"Výr.ost.textilu i.n.","en":"Manuf.of
+        oth.text.n.e.c."}},{"kod":"14110","nazov":{"sk":"Výroba kožených odevov","en":"Manuf.of
+        leather clothes"}},{"kod":"14120","nazov":{"sk":"Výroba pracovných odevov","en":"Manufacture
+        of workwear"}},{"kod":"14130","nazov":{"sk":"Výroba ost.vrch.ošatenia","en":"Manuf.of
+        oth.outerwear"}},{"kod":"14140","nazov":{"sk":"Výroba spodnej bielizne","en":"Manufacture
+        of underwear"}},{"kod":"14190","nazov":{"sk":"Výroba ost.odevov","en":"Man.of
+        oth.wearing appa."}},{"kod":"14200","nazov":{"sk":"Výroba kožušinových výr.","en":"Manuf.of
+        articles of fur"}},{"kod":"14310","nazov":{"sk":"Výroba pletených pančúch","en":"Manuf.of
+        knitted hosiery"}},{"kod":"14390","nazov":{"sk":"Výroba pleten.odevov","en":"Manuf.of
+        oth.knit.appar."}},{"kod":"15110","nazov":{"sk":"Činenie kože","en":"Tanning
+        of leather"}},{"kod":"15120","nazov":{"sk":"Výroba kufrov,kabeliek","en":"Man.of
+        luggage,handbags"}},{"kod":"15200","nazov":{"sk":"Výroba obuvi","en":"Manufacture
+        of footwear"}},{"kod":"16100","nazov":{"sk":"Pilovanie dreva","en":"Sawmilling
+        of wood"}},{"kod":"16210","nazov":{"sk":"Výroba dosiek","en":"Manuf.of veneer
+        sheets"}},{"kod":"16220","nazov":{"sk":"Výroba podlah.parkiet","en":"Man.of
+        assem.parq.floors"}},{"kod":"16231","nazov":{"sk":"Výroba stavebnostolárska","en":"Man.of.buil.carp,joinery"}},{"kod":"16232","nazov":{"sk":"Výr.prvkov
+        na mont.stav.","en":"Man.of prefabr.builders"}},{"kod":"16239","nazov":{"sk":"Výr.ost.stavebnost.i.n.","en":"Man.of.oth.buil.carp.nec"}},{"kod":"16240","nazov":{"sk":"Výroba
+        drev.kontajnerov","en":"Man.of wooden containers"}},{"kod":"16290","nazov":{"sk":"Výroba
+        ost.výr.z dreva","en":"Man.of oth.prod.of wood"}},{"kod":"17110","nazov":{"sk":"Výroba
+        celulózy","en":"Manufacture of pulp"}},{"kod":"17120","nazov":{"sk":"Výroba
+        papiera a lepenky","en":"Man.of paper,paperboard"}},{"kod":"17210","nazov":{"sk":"Výroba
+        vlnitého papiera","en":"Manu.of corrugated paper"}},{"kod":"17220","nazov":{"sk":"Výroba
+        výr.pre domácnosť","en":"Manuf.of household goods"}},{"kod":"17230","nazov":{"sk":"Výroba
+        papiernic.potrieb","en":"Manu.of paper stationry"}},{"kod":"17240","nazov":{"sk":"Výroba
+        tapiet","en":"Manufacture of wallpaper"}},{"kod":"17290","nazov":{"sk":"Výroba
+        ost.výr.z papiera","en":"Manu.of oth.art.of paper"}},{"kod":"18110","nazov":{"sk":"Tlač
+        novín","en":"Printing of newspapers"}},{"kod":"18120","nazov":{"sk":"Iná tlač","en":"Other
+        printing"}},{"kod":"18130","nazov":{"sk":"Služby pre tlač a média","en":"Pre-press,pre-media
+        serv"}},{"kod":"18140","nazov":{"sk":"Viazanie kníh","en":"Binding"}},{"kod":"18200","nazov":{"sk":"Reprodukcia
+        zázn.médií","en":"Reprod.of recorded media"}},{"kod":"19100","nazov":{"sk":"Výroba
+        prod.koksár.pecí","en":"Manuf.of coke oven prod."}},{"kod":"19200","nazov":{"sk":"Výroba
+        rafin.ropn.prod.","en":"Manu.of refin.petrol pr."}},{"kod":"20110","nazov":{"sk":"Výroba
+        priemysel.plynov","en":"Manuf.of industr.gases"}},{"kod":"20120","nazov":{"sk":"Výroba
+        farbív,pigmentov","en":"Manuf.of dyes,pigments"}},{"kod":"20130","nazov":{"sk":"Výr.ost.zákl.anorg.chem.","en":"Man.of
+        oth.inorg.chemic."}},{"kod":"20140","nazov":{"sk":"Výr.ost.zákl.org.chem.","en":"Man.of
+        oth.org.chemicals"}},{"kod":"20150","nazov":{"sk":"Výroba priemysel.hnojív","en":"Manuf.of
+        fertilisers"}},{"kod":"20160","nazov":{"sk":"Výroba primár.plastov","en":"Manufacture
+        of plastics"}},{"kod":"20170","nazov":{"sk":"Výroba syntet.kaučuku","en":"Manuf.of
+        synth.rubber"}},{"kod":"20200","nazov":{"sk":"Výroba pesticídov","en":"Manuf.of
+        pesticides"}},{"kod":"20300","nazov":{"sk":"Výroba farieb,lakov","en":"Manu.of
+        paints,varnishes"}},{"kod":"20410","nazov":{"sk":"Výroba mydla,pracích pr.","en":"Man.of
+        soap,detergents"}},{"kod":"20420","nazov":{"sk":"Výroba parfumér.prípr.","en":"Manu.of
+        perfum.preparat."}},{"kod":"20510","nazov":{"sk":"Výroba výbušnín","en":"Manuf.of
+        explosives"}},{"kod":"20520","nazov":{"sk":"Výroba lepidiel","en":"Manufacture
+        of glues"}},{"kod":"20530","nazov":{"sk":"Výroba éterických olejov","en":"Manuf.of
+        essential oils"}},{"kod":"20590","nazov":{"sk":"Výroba ost.chem.výr.i.n.","en":"Man.of
+        oth.chem.pr.n.e.c"}},{"kod":"20600","nazov":{"sk":"Výroba umelých vlákien","en":"Manuf.of
+        man-made fibres"}},{"kod":"21100","nazov":{"sk":"Výroba zákl.farmac.výr.","en":"Manuf.of
+        bas.pharm.prod."}},{"kod":"21200","nazov":{"sk":"Výroba farmaceut.prípr.","en":"Man.of
+        pharmaceut.prepa."}},{"kod":"22110","nazov":{"sk":"Výroba gum.pneumatík","en":"Man.of
+        rub.tyres,tubes"}},{"kod":"22190","nazov":{"sk":"Výroba ost.výr.z gumy","en":"Manu.of
+        oth.rub.products"}},{"kod":"22210","nazov":{"sk":"Výroba plastových dosiek","en":"Manuf.of
+        plastic plates"}},{"kod":"22220","nazov":{"sk":"Výroba plastových obalov","en":"Manu.of
+        plast.pack.goods"}},{"kod":"22230","nazov":{"sk":"Výroba plast.staveb.výr.","en":"Man.of
+        builders'' pl.ware"}},{"kod":"22290","nazov":{"sk":"Výroba ost.plast.výr.","en":"Man.of
+        oth.plas.products"}},{"kod":"23110","nazov":{"sk":"Výroba plochého skla","en":"Manuf.of
+        flat glass"}},{"kod":"23120","nazov":{"sk":"Tvarovanie ploch.skla","en":"Shaping
+        of flat glass"}},{"kod":"23130","nazov":{"sk":"Výroba dutého skla","en":"Manuf.of
+        hollow glas"}},{"kod":"23140","nazov":{"sk":"Výroba sklen.vlákien","en":"Manuf.of
+        glass fibres"}},{"kod":"23190","nazov":{"sk":"Výroba ost.skla","en":"Manuf.of
+        oth.glass"}},{"kod":"23200","nazov":{"sk":"Výroba žiaruvzdor.výr.","en":"Man.of
+        refract.products"}},{"kod":"23310","nazov":{"sk":"Výroba keram.obkladačiek","en":"Manuf.of
+        ceramic tiles"}},{"kod":"23320","nazov":{"sk":"Výroba tehál,obkladačiek","en":"Manuf.of
+        bricks,tiles"}},{"kod":"23411","nazov":{"sk":"Výroba keramického riadu","en":"Man.of
+        ceram.tableware"}},{"kod":"23419","nazov":{"sk":"Výr.dom.keram.predm.i.n.","en":"Man.of
+        cer.househ.ar.nec"}},{"kod":"23420","nazov":{"sk":"Výroba keram.sanit.vyb.","en":"Man.of
+        cer.sanit.fixture"}},{"kod":"23430","nazov":{"sk":"Výroba keram.izolátorov","en":"Manuf.of
+        cer.insulators"}},{"kod":"23440","nazov":{"sk":"Výroba ost.tech.ker.výr.","en":"Man.of
+        oth.tech.cer.prod"}},{"kod":"23490","nazov":{"sk":"Výroba ost.kerami.výr.","en":"Man.of
+        oth.cer.products"}},{"kod":"23510","nazov":{"sk":"Výroba cementu","en":"Manufacture
+        of cement"}},{"kod":"23520","nazov":{"sk":"Výroba vápna a sadry","en":"Manufac.of
+        lime,plaster"}},{"kod":"23610","nazov":{"sk":"Výroba stav.betón.výr.","en":"Man.of
+        build.conr.prod."}},{"kod":"23620","nazov":{"sk":"Výroba stav.sadr.výr.","en":"Man.of
+        build.plas.prod."}},{"kod":"23630","nazov":{"sk":"Výroba transport.betónu","en":"Man.of
+        ready-mix.concr."}},{"kod":"23640","nazov":{"sk":"Výroba malty","en":"Manufacture
+        of mortars"}},{"kod":"23650","nazov":{"sk":"Výroba cement.vlákien","en":"Manuf.of
+        fibre cement"}},{"kod":"23690","nazov":{"sk":"Výroba ost.výr.z betónu","en":"Man.of
+        oth.art.of concr."}},{"kod":"23700","nazov":{"sk":"Rezanie kameňa","en":"Cutting
+        of stone"}},{"kod":"23910","nazov":{"sk":"Výroba brúsnych výr.","en":"Man.of
+        abrasive prod."}},{"kod":"23990","nazov":{"sk":"Výroba ost.nekov.min.v.","en":"Man.of
+        ot.non-met.pr.nec"}},{"kod":"24100","nazov":{"sk":"Výroba surového železa","en":"Manu.of
+        basic iron,steel"}},{"kod":"24200","nazov":{"sk":"Výroba rúr,rúrok","en":"Man.of
+        tubes of steel"}},{"kod":"24310","nazov":{"sk":"Ťahanie tyčí za studena","en":"Cold
+        drawing of bars"}},{"kod":"24320","nazov":{"sk":"Valcovanie pásov za stud","en":"Cold
+        rolli.of narr.strip"}},{"kod":"24330","nazov":{"sk":"Tvarovanie za studena","en":"Cold
+        forming or folding"}},{"kod":"24340","nazov":{"sk":"Ťahanie drôtov za stud.","en":"Cold
+        drawing of wire"}},{"kod":"24410","nazov":{"sk":"Výroba drahých kovov","en":"Precious
+        met.production"}},{"kod":"24420","nazov":{"sk":"Výroba hliníka","en":"Aluminium
+        production"}},{"kod":"24430","nazov":{"sk":"Výroba olova,zinku","en":"Lead,zinc,tin
+        production"}},{"kod":"24440","nazov":{"sk":"Výroba medi","en":"Copper production"}},{"kod":"24450","nazov":{"sk":"Výroba
+        ost.neželez.kov.","en":"Oth.non-ferr.metal prod."}},{"kod":"24460","nazov":{"sk":"Výroba
+        jadrového paliva","en":"Processing of nucle.fuel"}},{"kod":"24510","nazov":{"sk":"Odlievanie
+        železa","en":"Casting of iron"}},{"kod":"24520","nazov":{"sk":"Odlievanie
+        ocele","en":"Casting of steel"}},{"kod":"24530","nazov":{"sk":"Odlievanie
+        ľahkých kovov","en":"Casting of light metals"}},{"kod":"24540","nazov":{"sk":"Odlievanie
+        ost.než.kov.","en":"Cast.of oth.non-fer.met."}},{"kod":"25110","nazov":{"sk":"Výroba
+        kov.konštrukcií","en":"Man.of metal structures"}},{"kod":"25120","nazov":{"sk":"Výroba
+        kovových dverí","en":"Manuf.of doors of metal"}},{"kod":"25210","nazov":{"sk":"Výroba
+        radiátor.úst.kúr.","en":"Man.of centr.heat.radiat"}},{"kod":"25290","nazov":{"sk":"Výroba
+        ost.nádrží","en":"Manuf.of oth.met.tanks"}},{"kod":"25300","nazov":{"sk":"Výroba
+        parných kotlov","en":"Man.of steam generators"}},{"kod":"25400","nazov":{"sk":"Výroba
+        zbraní a munície","en":"Manufacture of weapons"}},{"kod":"25500","nazov":{"sk":"Kovanie,lisovanie","en":"Forging,pressing"}},{"kod":"25610","nazov":{"sk":"Opracovanie
+        kovov","en":"Treatment of metals"}},{"kod":"25620","nazov":{"sk":"Obrábanie","en":"Machining"}},{"kod":"25710","nazov":{"sk":"Výroba
+        nožiarskych výr.","en":"Manufacture of cutlery"}},{"kod":"25720","nazov":{"sk":"Výroba
+        zámkov a pántov","en":"Manuf.of locks,hinges"}},{"kod":"25730","nazov":{"sk":"Výroba
+        náradia","en":"Manufacture of tools"}},{"kod":"25910","nazov":{"sk":"Výroba
+        oceľ.zásobníkov","en":"Manufac.of steel.drums"}},{"kod":"25920","nazov":{"sk":"Výroba
+        kov.obalov","en":"Man.of light met.packag."}},{"kod":"25930","nazov":{"sk":"Výroba
+        drôtených výr.","en":"Manuf.of wire products"}},{"kod":"25940","nazov":{"sk":"Výroba
+        upínadiel","en":"Manufacture of fasteners"}},{"kod":"25990","nazov":{"sk":"Výroba
+        ost.kovových výr.","en":"Man.of oth.met.prod.nec"}},{"kod":"26110","nazov":{"sk":"Výr.elektron.komponentov","en":"Man.of
+        electronic compon"}},{"kod":"26120","nazov":{"sk":"Výr.elektronic.dosiek","en":"Man.of
+        load.elect.boards"}},{"kod":"26200","nazov":{"sk":"Výroba počítačov","en":"Manufacture
+        of computers"}},{"kod":"26301","nazov":{"sk":"Výr.telefónnych zar.","en":"Man.of
+        teleph.comm.equi."}},{"kod":"26302","nazov":{"sk":"Výr.vysielacích zar.","en":"Man.of
+        transmi.equipment"}},{"kod":"26309","nazov":{"sk":"Výr.ost.komunikač.zar.","en":"Man.of
+        oth.comm.equipm."}},{"kod":"26400","nazov":{"sk":"Výr.spotreb.elektroniky","en":"Man.of
+        consu.electronics"}},{"kod":"26510","nazov":{"sk":"Výroba merac.nástrojov","en":"Manuf.of
+        measur.instrum."}},{"kod":"26520","nazov":{"sk":"Výroba hodín a hodiniek","en":"Manufacture
+        of watches"}},{"kod":"26600","nazov":{"sk":"Výroba ožar.prístrojov","en":"Man.of
+        irradiation equip"}},{"kod":"26700","nazov":{"sk":"Výroba optick.nástrojov","en":"Man.of
+        optic.instruments"}},{"kod":"26800","nazov":{"sk":"Výroba magn.,optic.médií","en":"Man.of
+        magn.,opt.media"}},{"kod":"27110","nazov":{"sk":"Výroba elektr.motorov","en":"Manuf.of
+        electr.motors"}},{"kod":"27120","nazov":{"sk":"Výr.elektr.distrib.zar.","en":"Ma.of
+        el.distr.apparatus"}},{"kod":"27200","nazov":{"sk":"Výroba batérií","en":"Manufacture
+        of batteries"}},{"kod":"27310","nazov":{"sk":"Výroba optických káblov","en":"Man.of
+        fibre opt.cables"}},{"kod":"27320","nazov":{"sk":"Výroba ost.elektr.drôtov","en":"Man.of
+        oth.el.wires,cabl"}},{"kod":"27330","nazov":{"sk":"Výroba elektroinšt.zar.","en":"Manuf.of
+        wiring devices"}},{"kod":"27400","nazov":{"sk":"Výroba elektr.svietidiel","en":"Man.of
+        el.light.equipm."}},{"kod":"27510","nazov":{"sk":"Výroba elektr.dom.zar.","en":"Man.of
+        el.domest.applia."}},{"kod":"27520","nazov":{"sk":"Výroba neelektr.dom.zar.","en":"Man.of
+        non-el.dom.appl."}},{"kod":"27900","nazov":{"sk":"Výroba ost.elektr.zar.","en":"Man.of
+        oth.elect.equipm."}},{"kod":"28110","nazov":{"sk":"Výroba motorov a turbín","en":"Man.of
+        engines,turbines"}},{"kod":"28120","nazov":{"sk":"Výroba zar.na kvap.pohon","en":"Man.of
+        fluid power equip"}},{"kod":"28130","nazov":{"sk":"Výroba iných čerpadiel","en":"Man.of
+        oth.pumps,compr."}},{"kod":"28140","nazov":{"sk":"Výroba kohútikov,ventil.","en":"Man.of
+        oth.taps,valves"}},{"kod":"28150","nazov":{"sk":"Výroba ložísk","en":"Manuf.of
+        bearings,gears"}},{"kod":"28210","nazov":{"sk":"Výroba rúr,pecí","en":"Manufacture
+        of ovens"}},{"kod":"28220","nazov":{"sk":"Výroba dvíhacích zar.","en":"Man.of
+        lifting equipment"}},{"kod":"28230","nazov":{"sk":"Výroba kancelár.stroj.","en":"Man.of
+        office machinery"}},{"kod":"28240","nazov":{"sk":"Výroba ručného náradia","en":"Man.of
+        pow-dr.hand tools"}},{"kod":"28250","nazov":{"sk":"Výroba chladiacich zar.","en":"Man.of
+        non-dom.cool equ."}},{"kod":"28290","nazov":{"sk":"Výroba ost.všeob.strojov","en":"Man.of
+        oth.ge-purp.mach."}},{"kod":"28300","nazov":{"sk":"Výroba poľnohosp.strojov","en":"Man.of
+        agricul.machinery"}},{"kod":"28410","nazov":{"sk":"Výr.stroj.na obráb.kovov","en":"Man.of
+        met.forming mach."}},{"kod":"28490","nazov":{"sk":"Výroba ost.obráb.strojov","en":"Man.of
+        oth.machin.tools"}},{"kod":"28910","nazov":{"sk":"Výroba metalurg.strojov","en":"Man.of
+        mach.for metallur"}},{"kod":"28920","nazov":{"sk":"Výroba baníc.strojov","en":"Man.of
+        mach.for mining"}},{"kod":"28930","nazov":{"sk":"Výroba potravin.strojov","en":"Man.of
+        mach.for food"}},{"kod":"28940","nazov":{"sk":"Výroba textil.strojov","en":"Man.of
+        mach.for textile"}},{"kod":"28950","nazov":{"sk":"Výroba papieren.strojov","en":"Man.of
+        mach.for paper"}},{"kod":"28960","nazov":{"sk":"Výr.stroj.na výr.plast.","en":"Man.of
+        plast.rubb.machin"}},{"kod":"28990","nazov":{"sk":"Výroba ost.špec.stroj.","en":"Man.of
+        oth.sp-p.mach.nec"}},{"kod":"29100","nazov":{"sk":"Výroba motor.vozidiel","en":"Manuf.of
+        mot.vehicles"}},{"kod":"29200","nazov":{"sk":"Výroba karosérií","en":"Man.of
+        bodies for mot.ve"}},{"kod":"29310","nazov":{"sk":"Výr.elektr.motor.prístr.","en":"Man.of
+        el.eq.for mot.veh"}},{"kod":"29320","nazov":{"sk":"Výroba ost.motor.dielov","en":"Man.of
+        ot.parts for m.v."}},{"kod":"30110","nazov":{"sk":"Stavba lodí","en":"Building
+        of ships"}},{"kod":"30120","nazov":{"sk":"Stavba člnov","en":"Build.of pleasure
+        boats"}},{"kod":"30200","nazov":{"sk":"Výroba želez.lokomotív","en":"Man.of
+        railw.locomotives"}},{"kod":"30300","nazov":{"sk":"Výroba lietadiel","en":"Manufacture
+        of air"}},{"kod":"30400","nazov":{"sk":"Výroba vojen.vozidiel","en":"Man.of
+        milit.figh.vehic."}},{"kod":"30910","nazov":{"sk":"Výroba motocyklov","en":"Manuf.of
+        motorcycles"}},{"kod":"30920","nazov":{"sk":"Výroba bicyklov","en":"Manufacture
+        of bicycles"}},{"kod":"30990","nazov":{"sk":"Výroba ost.dopr.prostr.","en":"Man.of
+        oth.tran.equi.nec"}},{"kod":"31010","nazov":{"sk":"Výroba kancelár.nábytku","en":"Manu.of
+        office furniture"}},{"kod":"31020","nazov":{"sk":"Výroba kuchyn.nábytku","en":"Man.of
+        kitchen furniture"}},{"kod":"31030","nazov":{"sk":"Výroba matracov","en":"Manufact.of
+        mattresses"}},{"kod":"31090","nazov":{"sk":"Výroba ost.ho nábytku","en":"Manuf.of
+        oth.furniture"}},{"kod":"32110","nazov":{"sk":"Razenie mincí","en":"Striking
+        of coins"}},{"kod":"32120","nazov":{"sk":"Výroba šperkov","en":"Manufacture
+        of jewellery"}},{"kod":"32130","nazov":{"sk":"Výroba bižutérie","en":"Man.of
+        imitat.jewellery"}},{"kod":"32200","nazov":{"sk":"Výroba hudob.nástrojov","en":"Manu.of
+        musical instrum."}},{"kod":"32300","nazov":{"sk":"Výroba šport.potrieb","en":"Man.of
+        sports goods"}},{"kod":"32400","nazov":{"sk":"Výroba hier a hračiek","en":"Manufac.of
+        games,toys"}},{"kod":"32500","nazov":{"sk":"Výroba lekár.nástrojov","en":"Man.of
+        medical instrum."}},{"kod":"32910","nazov":{"sk":"Výroba metiel a kief","en":"Manuf.of
+        brooms,brushes"}},{"kod":"32990","nazov":{"sk":"Ost.výroba i.n.","en":"Oth.manufacturing
+        n.e.c."}},{"kod":"33110","nazov":{"sk":"Oprava kov.konštrukcií","en":"Repair
+        of fabr.met.prod."}},{"kod":"33120","nazov":{"sk":"Oprava strojov","en":"Repair
+        of machinery"}},{"kod":"33130","nazov":{"sk":"Oprava elektron.prístr.","en":"Repair
+        of el.,opt.equipm"}},{"kod":"33140","nazov":{"sk":"Oprava elektr.prístrojov","en":"Repair
+        of electrical eq."}},{"kod":"33150","nazov":{"sk":"Oprava a údržba lodí","en":"Repair
+        of ships,boats"}},{"kod":"33160","nazov":{"sk":"Oprava lietadiel","en":"Repair
+        of aircraft"}},{"kod":"33170","nazov":{"sk":"Oprava ost.dopr.prostr.","en":"Repair
+        of oth.trans.equ."}},{"kod":"33190","nazov":{"sk":"Oprava ost.prístrojov","en":"Repair
+        of oth.equipment"}},{"kod":"33200","nazov":{"sk":"Inštalácia priem.stroj.","en":"Install.of
+        indrstr.mach."}},{"kod":"35110","nazov":{"sk":"Výroba elektriny","en":"Produc.of
+        electricity"}},{"kod":"35120","nazov":{"sk":"Prenos elektriny","en":"Transmiss.of
+        electricity"}},{"kod":"35130","nazov":{"sk":"Rozvod elektriny","en":"Distribut.of
+        electricity"}},{"kod":"35140","nazov":{"sk":"Predaj elektriny","en":"Trade
+        of electricity"}},{"kod":"35210","nazov":{"sk":"Výroba plynu","en":"Manufacture
+        of gas"}},{"kod":"35220","nazov":{"sk":"Rozvod plynných palív","en":"Distrib.of
+        gaseous fuels"}},{"kod":"35230","nazov":{"sk":"Predaj plynu","en":"Trade of
+        gas"}},{"kod":"35300","nazov":{"sk":"Dodávka pary,vzduchu","en":"Steam,air
+        condit.supply"}},{"kod":"36001","nazov":{"sk":"Dodávka pitnej,úžit.vody","en":"Potable,util.water
+        coll."}},{"kod":"36009","nazov":{"sk":"Dodávka ost.vody","en":"Oth.water collection"}},{"kod":"37000","nazov":{"sk":"Čistenie
+        odpad.vôd","en":"Sewerage"}},{"kod":"38110","nazov":{"sk":"Zber nie nebezp.odpadu","en":"Coll.of
+        non-hazard.waste"}},{"kod":"38120","nazov":{"sk":"Zber nebezpečného odpadu","en":"Collect.of
+        hazard.waste"}},{"kod":"38210","nazov":{"sk":"Spracúv.bezp.odpadu","en":"Disposal
+        of n-hazard.was"}},{"kod":"38220","nazov":{"sk":"Spracúv.nebezp.odpadu","en":"Disposal
+        of hazard.waste"}},{"kod":"38310","nazov":{"sk":"Demontáž vrakov","en":"Dismantling
+        of wrecks"}},{"kod":"38320","nazov":{"sk":"Recyklácia tried.mater.","en":"Recovery
+        of sorted mat."}},{"kod":"39000","nazov":{"sk":"Ost.naklad.s odpadom","en":"Remediation
+        activities"}},{"kod":"41100","nazov":{"sk":"Vyprac.staveb.projektov","en":"Develop.of
+        buil.projects"}},{"kod":"41201","nazov":{"sk":"Výst.obytných budov","en":"Constr.of
+        residen.build."}},{"kod":"41202","nazov":{"sk":"Výst.neobytných budov","en":"Constr.of
+        non-res.build."}},{"kod":"41209","nazov":{"sk":"Výst.obyt,neob.bud.i.n.","en":"Constr.of
+        buildings nec"}},{"kod":"42110","nazov":{"sk":"Výstavba ciest a diaľnic","en":"Construction
+        of roads"}},{"kod":"42120","nazov":{"sk":"Výstavba železníc","en":"Construction
+        of railways"}},{"kod":"42130","nazov":{"sk":"Výstavba mostov,tunelov","en":"Const.of
+        bridges,tunnels"}},{"kod":"42210","nazov":{"sk":"Výstavba plyn.rozvodov","en":"Cons.of
+        ut.pr.for fluids"}},{"kod":"42220","nazov":{"sk":"Výstavba elektr.sietí","en":"Cons.of
+        ut.pr.for electr"}},{"kod":"42910","nazov":{"sk":"Výstavba vodných diel","en":"Constr.of
+        water projects"}},{"kod":"42990","nazov":{"sk":"Výstavba ost.inž.stavieb","en":"Cons.of
+        ot.ci.eng.pr.nec"}},{"kod":"43110","nazov":{"sk":"Demolácia","en":"Demolition"}},{"kod":"43120","nazov":{"sk":"Zemné
+        práce","en":"Site preparation"}},{"kod":"43130","nazov":{"sk":"Prieskumné
+        vrty","en":"Test drilling and boring"}},{"kod":"43210","nazov":{"sk":"Elektrická
+        inštalácia","en":"Electrical installation"}},{"kod":"43220","nazov":{"sk":"Inšt.kanal,výhrev.zar.","en":"Plumbing,heat
+        cond.inst."}},{"kod":"43290","nazov":{"sk":"Ost.stavebná inštalácia","en":"Oth.constr.installation"}},{"kod":"43310","nazov":{"sk":"Omietkarské
+        práce","en":"Plastering"}},{"kod":"43320","nazov":{"sk":"Stolárske práce","en":"Joinery
+        installation"}},{"kod":"43330","nazov":{"sk":"Obkladanie stien,podláh","en":"Floor
+        and wall covering"}},{"kod":"43340","nazov":{"sk":"Maľovanie a zasklievanie","en":"Painting
+        and glazing"}},{"kod":"43390","nazov":{"sk":"Ost.stav.kompletiz.práce","en":"Oth.building
+        completion"}},{"kod":"43910","nazov":{"sk":"Pokrývačské práce","en":"Roofing
+        activities"}},{"kod":"43990","nazov":{"sk":"Ost.špecializ.stav.práce","en":"Oth.spec.constr.act.nec"}},{"kod":"45110","nazov":{"sk":"Predaj
+        automobilov","en":"Sale of cars"}},{"kod":"45190","nazov":{"sk":"Predaj ost.motor.voz.","en":"Sale
+        of oth.mot.vehicles"}},{"kod":"45200","nazov":{"sk":"Oprava motor.vozidiel","en":"Repair
+        of mot.vehicles"}},{"kod":"45310","nazov":{"sk":"Veľkoobchod s diel.voz.","en":"Wholes.of
+        mot.vehi.parts"}},{"kod":"45320","nazov":{"sk":"Maloobchod s dielmi voz.","en":"Retail
+        of mot.veh.parts"}},{"kod":"45400","nazov":{"sk":"Predaj,oprava motocyklov","en":"Sale,repair
+        of motorcyc."}},{"kod":"46110","nazov":{"sk":"Sprostr.obch.s poľn.sur.","en":"Agents
+        of sale of agric."}},{"kod":"46120","nazov":{"sk":"Sprostr.obch.s palivami","en":"Agents
+        of sale of fuels"}},{"kod":"46130","nazov":{"sk":"Sprostr.obch.s drevom","en":"Agents
+        of sale of timber"}},{"kod":"46140","nazov":{"sk":"Sprostr.obch.so strojmi","en":"Agents
+        of sale of machin"}},{"kod":"46150","nazov":{"sk":"Sprostr.obch.s nábytkom","en":"Agents
+        of sale of furnit"}},{"kod":"46160","nazov":{"sk":"Sprostr.obch.s textilom","en":"Agents
+        of sale of textil"}},{"kod":"46170","nazov":{"sk":"Sprostr.obch.s potravin.","en":"Agents
+        of sale of food"}},{"kod":"46180","nazov":{"sk":"Sprostr.obch.so šp.tov.","en":"Agents
+        of sale of oth.pr"}},{"kod":"46190","nazov":{"sk":"Sprostr.obch.s rozl.tov.","en":"Agents
+        of sale of var.go"}},{"kod":"46210","nazov":{"sk":"Veľkoobchod s obilím","en":"Wholes.of
+        grain,seeds"}},{"kod":"46220","nazov":{"sk":"Veľkoobchod s kvetmi","en":"Wholes.of
+        flowers,plants"}},{"kod":"46230","nazov":{"sk":"Veľkoobch.so živ.zvier.","en":"Wholes.of
+        live animals"}},{"kod":"46240","nazov":{"sk":"Veľkoobchod s kožou","en":"Wholesale
+        of hides,skins"}},{"kod":"46310","nazov":{"sk":"Veľkoobch.s ovocím,zel.","en":"Wholes.of
+        fruit,vegetab."}},{"kod":"46320","nazov":{"sk":"Veľkoobchod s mäsom","en":"Wholesale
+        of meat"}},{"kod":"46330","nazov":{"sk":"Veľkoobch.s mlieč.prod.","en":"Wholes.of
+        dairy products"}},{"kod":"46340","nazov":{"sk":"Veľkoobchod s nápojmi","en":"Wholesale
+        of beverages"}},{"kod":"46350","nazov":{"sk":"Veľkoobchod s tabak.výr.","en":"Wholes.of
+        tobac.products"}},{"kod":"46360","nazov":{"sk":"Veľkoobch.s cukrom,čok.","en":"Wholes.of
+        sugar,chochol."}},{"kod":"46370","nazov":{"sk":"Veľkoobch.s kávou,čajom","en":"Wholes.of
+        coffee,tea"}},{"kod":"46380","nazov":{"sk":"Veľkoobch.s i.potravin.","en":"Wholesale
+        of other food"}},{"kod":"46390","nazov":{"sk":"Nešp.veľkoob.s potravin.","en":"Non-spec.wholes.of
+        food"}},{"kod":"46410","nazov":{"sk":"Veľkoobchod s textilom","en":"Wholesale
+        of textiles"}},{"kod":"46420","nazov":{"sk":"Veľkoobch.s odevmi,obuv.","en":"Wh.of
+        clothing,footwear"}},{"kod":"46430","nazov":{"sk":"Veľkoobch.s dom.el.zar.","en":"Wh.of
+        electr.househ.appl"}},{"kod":"46440","nazov":{"sk":"Veľkoobchod s porcelánom","en":"Wh.of
+        china,clean.mater."}},{"kod":"46450","nazov":{"sk":"Veľkoobch.s parfum.tov.","en":"Wh.of
+        perfume,cosmetics"}},{"kod":"46460","nazov":{"sk":"Veľkoobch.s farmac.tov.","en":"Wh.pharmaceut.goods"}},{"kod":"46470","nazov":{"sk":"Veľkoobchod
+        s nábytkom","en":"Wh.of furnit,light.equip"}},{"kod":"46480","nazov":{"sk":"Veľkoobchod
+        s hodinami","en":"Wh.of watches,jewellery"}},{"kod":"46490","nazov":{"sk":"Veľk.s
+        ost.dom.potreb.","en":"Wh.of oth.househ.goods"}},{"kod":"46510","nazov":{"sk":"Veľkoobchod
+        s počítačmi","en":"Wholesale of computers"}},{"kod":"46520","nazov":{"sk":"Veľkoob.s
+        elektron.zar.","en":"Wh.of elect.,telecom.eq."}},{"kod":"46610","nazov":{"sk":"Veľkoobchod
+        s poľ.stroj.","en":"Wh.of agricult.machinery"}},{"kod":"46620","nazov":{"sk":"Veľkoobch.s
+        obráb.stroj.","en":"Wholes.of machine tools"}},{"kod":"46630","nazov":{"sk":"Veľkoob.so
+        staveb.stroj.","en":"Wh.of mining,const.mach."}},{"kod":"46640","nazov":{"sk":"Veľkoob.s
+        textil.stroj.","en":"Wh.of mach.for text.ind."}},{"kod":"46650","nazov":{"sk":"Veľkoob.s
+        kanc.nábytkom","en":"Wh.of office furniture"}},{"kod":"46660","nazov":{"sk":"Veľk.s
+        ost.kanc.stroj.","en":"Wh.of oth.office machin."}},{"kod":"46690","nazov":{"sk":"Veľkoobchod
+        s ost.stroj.","en":"Wholes.of oth.machinery"}},{"kod":"46710","nazov":{"sk":"Veľkoobchod
+        s palivami","en":"Wholesale of fuels"}},{"kod":"46720","nazov":{"sk":"Veľkoobchod
+        s kovmi","en":"Wh.of metals,metal ores"}},{"kod":"46730","nazov":{"sk":"Veľk.s
+        drevom,stav.mat.","en":"Wh.of wood,constr.mat."}},{"kod":"46740","nazov":{"sk":"Veľkoob.so
+        železiar.tov.","en":"Wholesale of hardware"}},{"kod":"46750","nazov":{"sk":"Veľkoobchod
+        s chem.výr.","en":"Wh.of chemical products"}},{"kod":"46760","nazov":{"sk":"Veľkoob.s
+        ost.medziprod.","en":"Wh.of oth.intermed.prod."}},{"kod":"46770","nazov":{"sk":"Veľkoobchod
+        s odpadom","en":"Wh.of waste and scrap"}},{"kod":"46900","nazov":{"sk":"Nešpecializ.veľkoobchod","en":"Non-specialised
+        wh.trade"}},{"kod":"47110","nazov":{"sk":"Maloobchod nešpecializ.","en":"Retail,with
+        food predomi"}},{"kod":"47190","nazov":{"sk":"Ost.maloob.nešpecializ.","en":"Ot.retail
+        in n-sp.stores"}},{"kod":"47210","nazov":{"sk":"Maloobchod s ovocím,zel.","en":"Retail
+        of fruit,vegetab."}},{"kod":"47220","nazov":{"sk":"Maloobchod s mäsom","en":"Retail
+        of meat"}},{"kod":"47230","nazov":{"sk":"Maloobchod s rybami","en":"Retail
+        of fish"}},{"kod":"47240","nazov":{"sk":"Maloobchod s chlebom","en":"Retail
+        of bread,cakes"}},{"kod":"47250","nazov":{"sk":"Maloobchod s nápojmi","en":"Retail
+        of beverages"}},{"kod":"47260","nazov":{"sk":"Maloobchod s tabak.výr.","en":"Retail
+        of tobacco prod."}},{"kod":"47290","nazov":{"sk":"Ost.maloobch.s potravin.","en":"Other
+        retail of food"}},{"kod":"47300","nazov":{"sk":"Maloobch.s pohon.látkami","en":"Retail
+        of automot.fuel"}},{"kod":"47410","nazov":{"sk":"Maloobchod s počítačmi","en":"Retail
+        of computers"}},{"kod":"47420","nazov":{"sk":"Maloob.s telekom.prístr.","en":"Retail
+        of telecom.equip."}},{"kod":"47430","nazov":{"sk":"Maloobch.s audio.prístr.","en":"Retail
+        of audio equipm."}},{"kod":"47510","nazov":{"sk":"Maloobchod s textilom","en":"Retail
+        sale of textiles"}},{"kod":"47520","nazov":{"sk":"Mal.so žel.tov,farb,skl.","en":"Retail
+        of hardw.,paints"}},{"kod":"47530","nazov":{"sk":"Maloobch.s kobercami","en":"Retail
+        sale of carpets"}},{"kod":"47540","nazov":{"sk":"Maloobch.s el.dom.zar.","en":"Retail
+        of el.househ.appl"}},{"kod":"47590","nazov":{"sk":"Maloobchod s nábytkom","en":"Retail
+        of furniture"}},{"kod":"47610","nazov":{"sk":"Maloobchod s knihami","en":"Retail
+        sale of books"}},{"kod":"47620","nazov":{"sk":"Maloobchod s novinami","en":"Retail
+        of newspapers"}},{"kod":"47630","nazov":{"sk":"Maloobch.s audio.nahráv.","en":"Retail
+        of music record."}},{"kod":"47640","nazov":{"sk":"Maloob.so šport.potreb.","en":"Retail
+        of sport.equipm."}},{"kod":"47650","nazov":{"sk":"Maloobchod s hračkami","en":"Retail
+        of games,toys"}},{"kod":"47710","nazov":{"sk":"Maloobchod s odevmi","en":"Retail
+        of clothing"}},{"kod":"47720","nazov":{"sk":"MO s obuvou,kož.výr.","en":"Retail
+        of footwear"}},{"kod":"47730","nazov":{"sk":"Lekárne","en":"Dispensing chemist"}},{"kod":"47740","nazov":{"sk":"Maloobch.so
+        zdravot.pom.","en":"Retail of medical goods"}},{"kod":"47750","nazov":{"sk":"Maloobch.s
+        kozmet.výr.","en":"Retail of cosmetic arti."}},{"kod":"47760","nazov":{"sk":"Maloobchod
+        s kvetmi","en":"Retail of flowers"}},{"kod":"47770","nazov":{"sk":"Maloobchod
+        s hodinami","en":"Retail of watches,jewel."}},{"kod":"47781","nazov":{"sk":"Maloob.s
+        paliv.pre dom.","en":"Retail of househ.fuels"}},{"kod":"47789","nazov":{"sk":"Ost.maloob.s
+        novým tov.","en":"Oth.ret.of new goods nec"}},{"kod":"47790","nazov":{"sk":"Maloobchod
+        s použit.tov.","en":"Retail of sec-hand goods"}},{"kod":"47810","nazov":{"sk":"Maloob.v
+        stánk.s potrav.","en":"Ret.via stalls of food"}},{"kod":"47820","nazov":{"sk":"Maloob.v
+        stánk.s textil.","en":"Ret.via stalls of texti."}},{"kod":"47890","nazov":{"sk":"Maloob.v
+        stánk.s os.tov.","en":"Ret.via stalls of ot.go."}},{"kod":"47910","nazov":{"sk":"Zásielk.,internet.predaj","en":"Retail
+        via mail,Internet"}},{"kod":"47990","nazov":{"sk":"Ost.maloob.mimo predajní","en":"Oth.retail
+        not in stores"}},{"kod":"49100","nazov":{"sk":"Osob.železničná doprava","en":"Passenger
+        rail transport"}},{"kod":"49200","nazov":{"sk":"Náklad.železnič.doprava","en":"Freight
+        rail transport"}},{"kod":"49310","nazov":{"sk":"Mest.,prímest.osob.dopr.","en":"Urban
+        passeng.land tran."}},{"kod":"49320","nazov":{"sk":"Taxislužba","en":"Taxi
+        operation"}},{"kod":"49390","nazov":{"sk":"Ost.osobná pozemná dopr.","en":"Oth.pass.land
+        transp.nec"}},{"kod":"49410","nazov":{"sk":"Nákladná cestná doprava","en":"Freight
+        transp.by road"}},{"kod":"49420","nazov":{"sk":"Sťahovacie služby","en":"Removal
+        services"}},{"kod":"49501","nazov":{"sk":"Potrubná doprava plynu","en":"Trans.via
+        pipel.of gases"}},{"kod":"49502","nazov":{"sk":"Potrubná doprava ropy","en":"Trans.via
+        pipel.of oil"}},{"kod":"49509","nazov":{"sk":"Ost.potrubná doprava","en":"Oth.transp.via
+        pipeline"}},{"kod":"50100","nazov":{"sk":"Námorná osob.doprava","en":"Sea
+        passen.water transp."}},{"kod":"50200","nazov":{"sk":"Námorná náklad.doprava","en":"Sea
+        freight water trans."}},{"kod":"50300","nazov":{"sk":"Vnútrozem.osob.vod.dopr.","en":"Inland
+        passen.wat.trans."}},{"kod":"50400","nazov":{"sk":"Vnútrozem.nákl.vod.dopr.","en":"Inland
+        freight wat.trans"}},{"kod":"51100","nazov":{"sk":"Osobná letecká doprava","en":"Passenger
+        air transport"}},{"kod":"51210","nazov":{"sk":"Nákladná letecká doprava","en":"Freight
+        air transport"}},{"kod":"51220","nazov":{"sk":"Kozmická doprava","en":"Space
+        transport"}},{"kod":"52100","nazov":{"sk":"Skladovanie","en":"Warehousing
+        and storage"}},{"kod":"52210","nazov":{"sk":"Vedľ.čin.v pozem.dopr.","en":"Serv.act.inc.to
+        land tr."}},{"kod":"52220","nazov":{"sk":"Vedľ.čin.vo vodnej dopr.","en":"Serv.act.inc.to
+        wat.tr."}},{"kod":"52230","nazov":{"sk":"Vedľ.čin.v letec.dopr.","en":"Serv.act.inc.to
+        air tra."}},{"kod":"52240","nazov":{"sk":"Manipulácia s nákladom","en":"Cargo
+        handling"}},{"kod":"52290","nazov":{"sk":"Ost.pomoc.čin.v doprave","en":"Oth.transport.supp.act."}},{"kod":"53100","nazov":{"sk":"Čin.univ.poštovej
+        služ.","en":"Post.ac.und.un.serv.obli"}},{"kod":"53200","nazov":{"sk":"Ost.poštové
+        služby","en":"Oth.postal,courier act."}},{"kod":"55100","nazov":{"sk":"Hotelové
+        ubytovanie","en":"Hotels and simil.accomod"}},{"kod":"55200","nazov":{"sk":"Turistické
+        ubytovanie","en":"Holliday accommodation"}},{"kod":"55300","nazov":{"sk":"Autokempingy,táboriská","en":"Camping
+        grounds"}},{"kod":"55901","nazov":{"sk":"Ubytov.vo VŠ internátoch","en":"Accom.in
+        stud.residences"}},{"kod":"55909","nazov":{"sk":"Ubytovanie ost.dočasné","en":"Accom.in
+        stud.residences"}},{"kod":"56101","nazov":{"sk":"Jedálne","en":"Eating houses"}},{"kod":"56102","nazov":{"sk":"Zar.škol.stravovania","en":"Instit.of
+        school consume"}},{"kod":"56109","nazov":{"sk":"Ost.účelové stravovanie","en":"Other
+        purpose consume"}},{"kod":"56210","nazov":{"sk":"Dodávka jedál","en":"Event
+        catering"}},{"kod":"56290","nazov":{"sk":"Ost.jedálenské služby","en":"Other
+        food service act."}},{"kod":"56300","nazov":{"sk":"Služby pohostinstiev","en":"Beverage
+        serving activ."}},{"kod":"58110","nazov":{"sk":"Vydávanie kníh","en":"Book
+        publishing"}},{"kod":"58120","nazov":{"sk":"Vydávanie adresárov","en":"Publish.of
+        directories"}},{"kod":"58130","nazov":{"sk":"Vydávanie novín","en":"Publishing
+        of newspapers"}},{"kod":"58140","nazov":{"sk":"Vydávanie časopisov","en":"Publishing
+        of journals"}},{"kod":"58190","nazov":{"sk":"Ost.vydavateľské čin.","en":"Oth.publishing
+        activit."}},{"kod":"58210","nazov":{"sk":"Nakladateľ.s počít.hrami","en":"Publishing
+        of comp.games"}},{"kod":"58290","nazov":{"sk":"Ost.nakladateľ.softvéru","en":"Oth.software
+        publishing"}},{"kod":"59110","nazov":{"sk":"Tvorba filmov,videa","en":"Motion
+        picture prod.act"}},{"kod":"59120","nazov":{"sk":"Čin.súvis.s tvorb.filmov","en":"Mot.pictu.post-prod.act."}},{"kod":"59130","nazov":{"sk":"Distribúcia
+        filmov,videa","en":"Motion pict.distrib.act."}},{"kod":"59140","nazov":{"sk":"Premietanie
+        filmov","en":"Motion pict.project.act."}},{"kod":"59200","nazov":{"sk":"Príprava
+        zvuk.nahrávok","en":"Sound recor,mus.publ.act"}},{"kod":"60100","nazov":{"sk":"Rozhlasové
+        vysielanie","en":"Radio broadcasting"}},{"kod":"60200","nazov":{"sk":"Vysielanie
+        televízie","en":"Telev.progr.,broadc.act."}},{"kod":"61100","nazov":{"sk":"Čin.drôtových
+        telekom.","en":"Wired telecommunic.act."}},{"kod":"61200","nazov":{"sk":"Čin.bezdrôtov.telekom.","en":"Wireless
+        telecommun.act."}},{"kod":"61300","nazov":{"sk":"Satelitné telekom.čin.","en":"Satellite
+        telecomm.act."}},{"kod":"61900","nazov":{"sk":"Ost.telekomunikačné čin.","en":"Oth.telecommunicat.act."}},{"kod":"62010","nazov":{"sk":"Počítačové
+        programovanie","en":"Computer programming act"}},{"kod":"62020","nazov":{"sk":"Poraden.týk.sa
+        počítačov","en":"Computer consultancy act"}},{"kod":"62030","nazov":{"sk":"Čin.súv.s
+        riad.počítač.","en":"Comp.facilit.managem.act"}},{"kod":"62090","nazov":{"sk":"Ost.služ.týkajúce
+        sa IT","en":"Oth.info.techn.serv.act."}},{"kod":"63110","nazov":{"sk":"Spracovanie
+        dát","en":"Data processing"}},{"kod":"63120","nazov":{"sk":"Služ.webového
+        portálu","en":"Web portals"}},{"kod":"63910","nazov":{"sk":"Čin.spravodaj.agentúr","en":"News
+        agency activities"}},{"kod":"63990","nazov":{"sk":"Ost.informač.služby i.n.","en":"Oth.infor.serv.act.n.e.c"}},{"kod":"64110","nazov":{"sk":"Čin.centrálnej
+        banky","en":"Central banking"}},{"kod":"64190","nazov":{"sk":"Ost.peňažné
+        sprostr.","en":"Oth.monet.intermediation"}},{"kod":"64200","nazov":{"sk":"Čin.holdingových
+        spoloč.","en":"Act.of holding companies"}},{"kod":"64300","nazov":{"sk":"Trasty,fondy","en":"Trusts,
+        funds"}},{"kod":"64910","nazov":{"sk":"Finančný lízing","en":"Financial leasing"}},{"kod":"64920","nazov":{"sk":"Ost.poskytovanie
+        úverov","en":"Other credit granting"}},{"kod":"64990","nazov":{"sk":"Ost.finančné
+        služby i.n","en":"Oth.finan.serv.act.nec"}},{"kod":"65110","nazov":{"sk":"Životné
+        poistenie","en":"Life insurance"}},{"kod":"65120","nazov":{"sk":"Neživotné
+        poistenie","en":"Non-life insurance"}},{"kod":"65200","nazov":{"sk":"Zaistenie","en":"Reinsurance"}},{"kod":"65300","nazov":{"sk":"Dôchodkové
+        zabezpečenie","en":"Pension funding"}},{"kod":"66110","nazov":{"sk":"Správa
+        finančných trhov","en":"Administr.of fin.markets"}},{"kod":"66120","nazov":{"sk":"Sprostr.obch.s
+        komodit.","en":"Comod.contrac.brokerage"}},{"kod":"66190","nazov":{"sk":"Ost.pom.čin.fin.služieb","en":"Oth.act.aux.to
+        fin.serv."}},{"kod":"66210","nazov":{"sk":"Vyčíslenie rizík","en":"Risk,damage
+        evaluation"}},{"kod":"66220","nazov":{"sk":"Čin.poisťovacích agentov","en":"Act.of
+        insurance agents"}},{"kod":"66290","nazov":{"sk":"Ost.pomocné čin.v poisť.","en":"Oth.act.aux.to
+        insurance"}},{"kod":"66300","nazov":{"sk":"Čin.investič.manažérov","en":"Fund
+        management activ."}},{"kod":"68100","nazov":{"sk":"Kúpa,predaj vlast.nehn.","en":"Buy.,sell.of
+        own re.est."}},{"kod":"68200","nazov":{"sk":"Prenájom vlast.nehnuteľ.","en":"Renting
+        of real estate"}},{"kod":"68310","nazov":{"sk":"Realitné kancelárie","en":"Real
+        estate agencies"}},{"kod":"68320","nazov":{"sk":"Správa nehnuteľností","en":"Management
+        of real esta."}},{"kod":"69100","nazov":{"sk":"Právne činnosti","en":"Legal
+        activities"}},{"kod":"69200","nazov":{"sk":"Účtovnícke činnosti","en":"Accounting
+        activities"}},{"kod":"70100","nazov":{"sk":"Vedenie firiem","en":"Activit.of
+        head offices"}},{"kod":"70210","nazov":{"sk":"Služ.v styku verejnosťou","en":"Publ.relations,comm.act."}},{"kod":"70220","nazov":{"sk":"Poraden.čin.v
+        podnikaní","en":"Managem.consultancy act."}},{"kod":"71110","nazov":{"sk":"Architektonické
+        čin.","en":"Architectural activities"}},{"kod":"71121","nazov":{"sk":"Inžinierske
+        čin,poraden.","en":"Engineering activities"}},{"kod":"71122","nazov":{"sk":"Geologický
+        prieskum","en":"Geologic surveying"}},{"kod":"71123","nazov":{"sk":"Geodetické
+        činnosti","en":"Geodetic activities"}},{"kod":"71129","nazov":{"sk":"Ost.inž.čin.,súv.porad.","en":"Other
+        engineering activ."}},{"kod":"71200","nazov":{"sk":"Technické testovanie","en":"Technic.testing,analysis"}},{"kod":"72110","nazov":{"sk":"Výskum
+        v obla.biotechn.","en":"Research on biotechnol."}},{"kod":"72190","nazov":{"sk":"Ost.výskum
+        prír.vied","en":"Oth.research on nat.sc."}},{"kod":"72200","nazov":{"sk":"Výskum
+        v obl.spoloč.vied","en":"Research on soc.scienc."}},{"kod":"73110","nazov":{"sk":"Reklamné
+        agentúry","en":"Advertising agencies"}},{"kod":"73120","nazov":{"sk":"Predaj
+        vysielacieho času","en":"Media representation"}},{"kod":"73200","nazov":{"sk":"Prieskum
+        trhu,mienky","en":"Market research"}},{"kod":"74100","nazov":{"sk":"Špecializ.dizajnér.čin.","en":"Specialised
+        design act."}},{"kod":"74200","nazov":{"sk":"Fotografické čin.","en":"Photographic
+        activities"}},{"kod":"74300","nazov":{"sk":"Prekladateľské čin.","en":"Translation
+        activities"}},{"kod":"74900","nazov":{"sk":"Ost.odborné čin.i.n.","en":"Oth.profess.act.n.e.c."}},{"kod":"75000","nazov":{"sk":"Veterinárne
+        čin.","en":"Veterinary activities"}},{"kod":"77110","nazov":{"sk":"Prenájom
+        automobilov","en":"Renting of cars"}},{"kod":"77120","nazov":{"sk":"Prenájom
+        náklad.auto.","en":"Renting of trucks"}},{"kod":"77210","nazov":{"sk":"Prenájom
+        šport.potrieb","en":"Renting of recreat.goods"}},{"kod":"77220","nazov":{"sk":"Prenájom
+        videopások","en":"Renting of video tapes"}},{"kod":"77290","nazov":{"sk":"Prenájom
+        ost.dom.potrieb","en":"Renting of ot.hous.goods"}},{"kod":"77310","nazov":{"sk":"Prenájom
+        poľn.strojov","en":"Rent.of agricult.machin."}},{"kod":"77320","nazov":{"sk":"Prenájom
+        stav.strojov","en":"Rent.of constr.machinery"}},{"kod":"77330","nazov":{"sk":"Prenájom
+        kancel.strojov","en":"Rent.of office machinery"}},{"kod":"77340","nazov":{"sk":"Prenájom
+        lodí","en":"Renting of wat.trans.eq."}},{"kod":"77350","nazov":{"sk":"Prenájom
+        lietadiel","en":"Renting of air trans.eq."}},{"kod":"77390","nazov":{"sk":"Prenájom
+        ost.stroj.,tov.","en":"Renting of oth.machinery"}},{"kod":"77400","nazov":{"sk":"Lízing
+        dušev.vlastníctva","en":"Leas.of intellect.prop."}},{"kod":"78100","nazov":{"sk":"Čin.agentúr
+        sprostr.zam.","en":"Act.of empl.placem.agen."}},{"kod":"78200","nazov":{"sk":"Agent.sprostr.dočas.zam.","en":"Temp.empl.agency
+        act."}},{"kod":"78300","nazov":{"sk":"Ost.poskytov.ľud.zdrojov","en":"Oth.human
+        resourc.provis"}},{"kod":"79110","nazov":{"sk":"Čin.cestov.agentúr","en":"Travel
+        agency activities"}},{"kod":"79120","nazov":{"sk":"Čin.cestov.kancelárií","en":"Tour
+        operator activities"}},{"kod":"79900","nazov":{"sk":"Ost.rezervačné služ.","en":"Oth.reserv.servat.act."}},{"kod":"80100","nazov":{"sk":"Súkrom.bezpečnost.služ.","en":"Private
+        security activ."}},{"kod":"80200","nazov":{"sk":"Služby bezpečnost.syst.","en":"Secur.systems
+        serv.act."}},{"kod":"80300","nazov":{"sk":"Pátracie služby","en":"Investigation
+        activities"}},{"kod":"81100","nazov":{"sk":"Kombinované pomocné čin.","en":"Comb.facilities
+        supp.act"}},{"kod":"81210","nazov":{"sk":"Generál.čistenie budov","en":"Gener.cleaning
+        of build."}},{"kod":"81220","nazov":{"sk":"Ost.priem.čistenie budov","en":"Oth.build.indust.cl.act."}},{"kod":"81290","nazov":{"sk":"Ost.čistiace
+        činnosti","en":"Oth.cleaning activities"}},{"kod":"81300","nazov":{"sk":"Čin.súv.s
+        krajin.úpravou","en":"Landscape service activ."}},{"kod":"82110","nazov":{"sk":"Administr-kancelár.čin.","en":"Comb.off.admin.serv.act."}},{"kod":"82190","nazov":{"sk":"Kopírovanie,prípr.dokum.","en":"Oth.spec.offic.supp.act."}},{"kod":"82200","nazov":{"sk":"Čin.call
+        centier","en":"Activit.of call centres"}},{"kod":"82300","nazov":{"sk":"Organizovanie
+        kongresov","en":"Organisat.of conventions"}},{"kod":"82910","nazov":{"sk":"Čin.inkasných
+        agentúr","en":"Act.of collect.agencies"}},{"kod":"82920","nazov":{"sk":"Baliace
+        čin.","en":"Packaging activities"}},{"kod":"82990","nazov":{"sk":"Ost.pomocné
+        obchod.čin.","en":"Oth.busin.supp.serv.act."}},{"kod":"84110","nazov":{"sk":"Všeobecná
+        verejná správa","en":"General publ.admin.act."}},{"kod":"84120","nazov":{"sk":"Usmerňov.sociál.služ.","en":"Regulation
+        of social.act"}},{"kod":"84130","nazov":{"sk":"Podpora ekonomiky","en":"Regulation
+        of economics"}},{"kod":"84210","nazov":{"sk":"Zahraničné veci","en":"Foreign
+        affairs"}},{"kod":"84220","nazov":{"sk":"Obrana","en":"Defence activities"}},{"kod":"84230","nazov":{"sk":"Spravodlivosť,súdnictvo","en":"Justice,judicial
+        activ."}},{"kod":"84240","nazov":{"sk":"Ver.poriadok,bezpečnosť","en":"Public
+        order,safety act"}},{"kod":"84250","nazov":{"sk":"Protipožiarna ochrana","en":"Fire
+        service activities"}},{"kod":"84300","nazov":{"sk":"Povinné sociálne zabezp.","en":"Compuls.social
+        secur.act"}},{"kod":"85100","nazov":{"sk":"Predškolská výchova","en":"Pre-primary
+        education"}},{"kod":"85200","nazov":{"sk":"Základné školstvo","en":"Primary
+        education"}},{"kod":"85310","nazov":{"sk":"Stred.všeob.školstvo","en":"General
+        second.education"}},{"kod":"85321","nazov":{"sk":"Stredné odborné školstvo","en":"Vocational
+        second.educa."}},{"kod":"85322","nazov":{"sk":"Odborné učilištia","en":"Second.apprentice
+        educa."}},{"kod":"85329","nazov":{"sk":"Ost.stred.tech,odb.škol.","en":"Oth.tech,voc.secon.educ."}},{"kod":"85410","nazov":{"sk":"Pomaturit.neterc.vzdel.","en":"Post-sec.non-tertiar.ed."}},{"kod":"85420","nazov":{"sk":"Terciárne
+        vzdelávanie","en":"Tertiary education"}},{"kod":"85510","nazov":{"sk":"Športová,rekr.výchova","en":"Sports,recreation
+        educ."}},{"kod":"85520","nazov":{"sk":"Umelecké vzdelávanie","en":"Cultural
+        education"}},{"kod":"85530","nazov":{"sk":"Výučba ved.dopr.prostr.","en":"Driving
+        school activit."}},{"kod":"85590","nazov":{"sk":"Ost.vzdelávanie i.n.","en":"Other
+        education n.e.c."}},{"kod":"85600","nazov":{"sk":"Pomocné vzdelávacie čin.","en":"Educational
+        support act."}},{"kod":"86100","nazov":{"sk":"Čin.nemocníc","en":"Hospital
+        activities"}},{"kod":"86210","nazov":{"sk":"Čin.všeob.lekár.praxe","en":"Gener.medic.practice
+        act"}},{"kod":"86220","nazov":{"sk":"Čin.špec.lekár.praxe","en":"Special.medic.pract.act."}},{"kod":"86230","nazov":{"sk":"Zubná
+        lekárska prax","en":"Dental practice activit."}},{"kod":"86901","nazov":{"sk":"Služ.zdravot.laboratórií","en":"Act.of
+        medi.laboratories"}},{"kod":"86909","nazov":{"sk":"Ost.zdravotná star.i.n.","en":"Oth.human
+        health act.nec"}},{"kod":"87100","nazov":{"sk":"Ošetr.služ.v pobyt.zar.","en":"Resid.nursing
+        care act."}},{"kod":"87200","nazov":{"sk":"Starost.o mentál.postih.","en":"Care
+        act.for ment.retard"}},{"kod":"87300","nazov":{"sk":"Starost.o staršie os.","en":"Care
+        act.for erderly"}},{"kod":"87900","nazov":{"sk":"Ost.starostl.s pobytom","en":"Oth.resident.care
+        act."}},{"kod":"88100","nazov":{"sk":"Sociálna práca bez ubyt.","en":"Soc.work
+        without accom."}},{"kod":"88910","nazov":{"sk":"Denná starostliv.o deti","en":"Child
+        day-care activit."}},{"kod":"88990","nazov":{"sk":"Ost.soc.star.bez.ubyt.","en":"Ot.soc.work
+        act.witho.ac"}},{"kod":"90010","nazov":{"sk":"Scénické umenie","en":"Performing
+        arts"}},{"kod":"90020","nazov":{"sk":"Podpor.scénické čin.","en":"Supp.act.to
+        perform.arts"}},{"kod":"90030","nazov":{"sk":"Umelecká tvorba","en":"Artistic
+        creation"}},{"kod":"90040","nazov":{"sk":"Prevádzka kultúr.zariad.","en":"Artistic
+        creation"}},{"kod":"91010","nazov":{"sk":"Čin.knižníc a archívov","en":"Libraries,
+        archives act."}},{"kod":"91020","nazov":{"sk":"Činnosti múzeí","en":"Museums
+        activities"}},{"kod":"91030","nazov":{"sk":"Prevádz.histor.pamiatok","en":"Operatio.of
+        histor.sites"}},{"kod":"91040","nazov":{"sk":"Čin.botan.,zoo.záhrad","en":"Botanical,zoolog.gardens"}},{"kod":"92000","nazov":{"sk":"Činnosti
+        herní","en":"Gambling,betting activ."}},{"kod":"93110","nazov":{"sk":"Prevádzka
+        šport.zar.","en":"Operat.of sports facilit"}},{"kod":"93120","nazov":{"sk":"Čin.športových
+        klubov","en":"Activit.of sport clubs"}},{"kod":"93130","nazov":{"sk":"Fitnescentrá","en":"Fitness
+        facilities"}},{"kod":"93190","nazov":{"sk":"Ost.športové čin.","en":"Other
+        sports activities"}},{"kod":"93210","nazov":{"sk":"Činnosti lunaparkov","en":"Act.of
+        amusement parks"}},{"kod":"93290","nazov":{"sk":"Ost.zábav,voľnočas.čin.","en":"Oth.amusement
+        act."}},{"kod":"94110","nazov":{"sk":"Čin.podnikateľ,zam.org.","en":"Act.of
+        busin,employ.org."}},{"kod":"94120","nazov":{"sk":"Čin.profesijn.člen.org.","en":"Act.of
+        profession.org."}},{"kod":"94200","nazov":{"sk":"Čin.odborových org.","en":"Activ.of
+        trade unions"}},{"kod":"94910","nazov":{"sk":"Čin.cirkevných org.","en":"Activ.of
+        religious org."}},{"kod":"94920","nazov":{"sk":"Čin.politických org.","en":"Activ.of
+        political org."}},{"kod":"94991","nazov":{"sk":"Čin.mládežníc.org.","en":"Act.of
+        youth movem.org."}},{"kod":"94992","nazov":{"sk":"Čin.záujmových org.","en":"Act.of
+        hobies org."}},{"kod":"94999","nazov":{"sk":"Čin.ost.členských org.","en":"Act.of
+        oth.members.org."}},{"kod":"95110","nazov":{"sk":"Oprava počítačov","en":"Repair
+        of computers"}},{"kod":"95120","nazov":{"sk":"Oprava komunikač.zar.","en":"Repair
+        of commun.equip."}},{"kod":"95210","nazov":{"sk":"Oprava spotreb.elektr.","en":"Repair
+        of consum.electr."}},{"kod":"95220","nazov":{"sk":"Oprava domácich zar.","en":"Repair
+        of househ.applian"}},{"kod":"95230","nazov":{"sk":"Oprava obuvi","en":"Repair
+        of footwear"}},{"kod":"95240","nazov":{"sk":"Oprava nábytku,dom.zar.","en":"Repair
+        of furniture"}},{"kod":"95250","nazov":{"sk":"Oprava hodín,hodiniek","en":"Repair
+        of watches"}},{"kod":"95290","nazov":{"sk":"Oprava osobných potrieb","en":"Rep.of
+        oth.househ.goods"}},{"kod":"96010","nazov":{"sk":"Pranie a chemické čist.","en":"Washing
+        of textile"}},{"kod":"96020","nazov":{"sk":"Kadernícke,kozmet.služ.","en":"Hairdres,beaut.treatment"}},{"kod":"96030","nazov":{"sk":"Pohrebné
+        a súvis.služby","en":"Funeral and related act."}},{"kod":"96040","nazov":{"sk":"Služ.týk.sa
+        teles.pohody","en":"Physical well-being act."}},{"kod":"96090","nazov":{"sk":"Ost.osob.služby
+        i.n.","en":"Oth.person.serv.act.nec"}},{"kod":"97000","nazov":{"sk":"Čin.domácn.ako
+        zamestn.","en":"Act.of househ. as emplo."}},{"kod":"98100","nazov":{"sk":"Čin.v
+        dom.produk.tovary","en":"Act.of house.goods prod."}},{"kod":"98200","nazov":{"sk":"Čin.v
+        dom.produk.služby","en":"Act.of house.serv. prod."}},{"kod":"99000","nazov":{"sk":"Čin.extrateritoriál.org.","en":"Act.of
+        extrater.organis."}}]}'
+    http_version: 
+  recorded_at: Sat, 03 Feb 2018 13:41:57 GMT
+recorded_with: VCR 3.0.3
