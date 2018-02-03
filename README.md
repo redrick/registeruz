@@ -2,9 +2,10 @@
 
 [![Build Status](https://travis-ci.org/redrick/registeruz.svg?branch=master)](https://travis-ci.org/redrick/registeruz)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gem_template`. To experiment with that code, run `bin/console` for an interactive prompt.
+Gem build as SVK alternation of [CZK Ares gem](https://github.com/ucetnictvi-on-line/ares.rb)
 
-TODO: Delete this and the text above, and describe your gem
+Allows you to get company/person information based on their ICO (we purely use
+it this way, but could be bent to use it otherwise :) )
 
 ## Installation
 
@@ -24,16 +25,121 @@ Or install it yourself as:
 
 ## Usage
 
-Before you start using gem_template you have to configure it.
+This gem has no setup, all data it accesses is free online, just enjoy them :)
+
+Purely based on documentation found [here on
+http://www.registeruz.sk/](http://www.registeruz.sk/cruz-public/home/api)
+
+You can find many many details there, I will present you with use case I did
+this for, if you are missing something, do not hesitate to contact me, will try
+to have a look shortly...
+
+You are provided with class `Registeruz::Subject` which allows you to search
+through companies by attributes listed in official docs, I will go through ICO
+lookup only here:
+
+You can choose if you are searching and expect more items returned to use `where` (similar to rails activerecord method):
 
 ```ruby
-GemTemplate.configure do |config|
-  config.base_url = 'https://example.com/'
-  config.username = 'your username'
-  config.password = 'your password'
-end
+Registeruz::Subject.where(ico: 50826042)
+
+[#<Registeruz::Models::Subject:0x00007fdc7a1a57a8
+  @city="Bratislava - mestská časť Rača",
+  @consolidated=false,
+  @data_origin="SUSR",
+  @dic=nil,
+  @district="Bratislava III",
+  @founded_at=2017-04-12 00:00:00 +0200,
+  @ico="50826042",
+  @id=1689373,
+  @legal_form="Spol. s r. o.",
+  @name="UOL SK s.r.o.",
+  @organization_size="nezistený",
+  @ownership_type="Zahraničné",
+  @postal_code="83106",
+  @region="Bratislavský kraj",
+  @residence="Bratislava-Rača",
+  @sk_nace_code="Účtovnícke činnosti",
+  @street="Karpatské námestie 10A",
+  @updated_at=2017-11-03 00:00:00 +0100>]
 ```
-And enjoy its features.
+
+if you get whole array of results, you can perform array operations on it...
+that's a plus...
+
+Otherwise searching by ICO seems to make more sense with usage of `find_by`
+where object of `Registeruz::Subject` is being returned like this:
+
+```ruby
+Registeruz::Subject.find_by(ico: 50826042)
+
+#<Registeruz::Models::Subject:0x00007fdc7aa124b8
+  @city="Bratislava - mestská časť Rača",
+  @consolidated=false,
+  @data_origin="SUSR",
+  @dic=nil,
+  @district="Bratislava III",
+  @founded_at=2017-04-12 00:00:00 +0200,
+  @ico="50826042",
+  @id=1689373,
+  @legal_form="Spol. s r. o.",
+  @name="UOL SK s.r.o.",
+  @organization_size="nezistený",
+  @ownership_type="Zahraničné",
+  @postal_code="83106",
+  @region="Bratislavský kraj",
+  @residence="Bratislava-Rača",
+  @sk_nace_code="Účtovnícke činnosti",
+  @street="Karpatské námestie 10A",
+  @updated_at=2017-11-03 00:00:00 +0100>
+```
+
+The `Registeruz::Subject` that is returned has method with english names, but
+here you have SVK equivalents from official docs:
+
+- `id` - identifikátor účtovnej jednotky, maximálne desaťciferné celé číslo
+- `ico` - IČO účtovnej jednotky, osemznakový textový reťazec
+- `dic` - DIČ účtovnej jednotky, desaťznakový textový reťazec
+- `name` - názov účtovnej jednotky, textový reťazec s maximálnou dĺžkou 500 znakov
+- `city` - adresa účtovnej jednotky, mesto, textový reťazec s maximálnou dĺžkou 200 znakov
+- `street` - adresa účtovnej jednotky, ulica s číslom, textový reťazec s maximálnou dĺžkou 200 znakov
+- `postal_code` - adresa účtovnej jednotky, PSČ, textový reťazec s maximálnou dĺžkou 10 znakov
+- `founded_at` - dátum založenia účtovnej jednotky, formát RRRR-MM-DD
+- `closed_at` - dátum zrušenia účtovnej jednotky, formát RRRR-MM-DD
+- `legal_form` - kód právnej formy (viď Číselníky), textový reťazec s maximálnou dĺžkou 100 znakov
+- `sk_nace_code` - kód SK NACE klasifikácie (viď Číselníky), textový reťazec s maximálnou dĺžkou 100 znakov
+- `organization_size` - kód kategórie veľkosti organizácie (viď Číselníky), textový reťazec s maximálnou dĺžkou 100 znakov
+- `ownership_type` - kód druhu vlastníctva (viď Číselníky), textový reťazec s maximálnou dĺžkou 100 znakov
+- `region` - sídlo účtovnej jednotky, kód kraja (viď Číselníky), textový reťazec s maximálnou dĺžkou 100 znakov
+- `district` - sídlo účtovnej jednotky, kód okresu (viď Číselníky), textový reťazec s maximálnou dĺžkou 100 znakov
+- `residence` - sídlo účtovnej jednotky, kód obce alebo mesta (viď Číselníky), textový reťazec s maximálnou dĺžkou 100 znakov
+- `consolidated` - boolean príznak - true, ak jednotka obsahuje aspoň jednu konsolidovanú účtovnú závierku
+- `data_origin` - kód zdroja, z ktorého pochádzajú dáta (viď Zdroje dát), textový reťazec s maximálnou dĺžkou 30 znakov
+- `updated_at` - dátum poslednej úpravy, formát RRRR-MM-DD
+
+When there is `Číselník` mentioned it means you will not get ID representation
+of the data but gem looks it up and gives you slovak word equivalent of the
+ID....
+
+Otherwise you can search yourself through codebooks like this:
+
+```ruby
+Registeruz::Api::Codebook.find('sidla', '510262')
+
+=> "Liptovský Mikuláš"
+```
+
+First param is name of the codebook, you can use one of these:
+
+- `pravne-formy`
+- `sk-nace`
+- `druhy-vlastnictva`
+- `velkosti-organizacie`
+- `kraje`
+- `okresy`
+- `sidla`
+
+Enjoy!
 
 ## Development
 
