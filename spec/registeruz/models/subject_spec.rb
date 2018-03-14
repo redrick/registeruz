@@ -25,24 +25,26 @@ RSpec.describe Registeruz::Models::Collection do
         @result = Registeruz::Models::Subject.new(body)
       end
 
-      expect(@result.id).to eq(1689373)
-      expect(@result.city).to eq('Bratislava - mestská časť Rača')
-      expect(@result.consolidated).to be_falsey
-      expect(@result.data_origin).to eq('SUSR')
-      expect(@result.dic).to be_nil
-      expect(@result.district).to eq('Bratislava III')
-      expect(@result.founded_at).to eq(Time.parse('2017-04-12'))
-      expect(@result.ico).to eq('50826042')
-      expect(@result.legal_form).to eq('Spol. s r. o.')
-      expect(@result.name).to eq('UOL SK s.r.o.')
-      expect(@result.organization_size).to eq('nezistený')
-      expect(@result.ownership_type).to eq('Zahraničné')
-      expect(@result.postal_code).to eq('83106')
-      expect(@result.region).to eq('Bratislavský kraj')
-      expect(@result.residence).to eq('Bratislava-Rača')
-      expect(@result.sk_nace_code).to eq('Účtovnícke činnosti')
-      expect(@result.street).to eq('Karpatské námestie 10A')
-      expect(@result.updated_at).to eq(Time.parse('2017-11-03'))
+      VCR.use_cassette 'models/subject_additional' do
+        expect(@result.id).to eq(1689373)
+        expect(@result.city).to eq('Bratislava - mestská časť Rača')
+        expect(@result.consolidated).to be_falsey
+        expect(@result.data_origin).to eq('SUSR')
+        expect(@result.dic).to be_nil
+        expect(@result.district).to eq('Bratislava III')
+        expect(@result.founded_at).to eq(Time.parse('2017-04-12'))
+        expect(@result.ico).to eq('50826042')
+        expect(@result.legal_form).to eq('Spol. s r. o.')
+        expect(@result.name).to eq('UOL SK s.r.o.')
+        expect(@result.organization_size).to eq('nezistený')
+        expect(@result.ownership_type).to eq('Zahraničné')
+        expect(@result.postal_code).to eq('83106')
+        expect(@result.region).to eq('Bratislavský kraj')
+        expect(@result.residence).to eq('Bratislava-Rača')
+        expect(@result.sk_nace_code).to eq('Účtovnícke činnosti')
+        expect(@result.street).to eq('Karpatské námestie 10A')
+        expect(@result.updated_at).to eq(Time.parse('2017-11-03'))
+      end
     end
   end
 end
