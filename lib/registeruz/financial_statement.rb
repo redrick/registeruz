@@ -1,8 +1,8 @@
 module Registeruz
-  class Subject
+  class FinancialStatement
     class << self
       def where(options)
-        ::Registeruz::Api::Subject::Where.where(options).items
+        ::Registeruz::Api::FinancialStatement::Where.where(options).items
       end
 
       def find_by(options)
@@ -10,7 +10,7 @@ module Registeruz
       end
 
       def find(id)
-        ::Registeruz::Api::Subject::Find.find(id)
+        ::Registeruz::Api::FinancialStatement::Find.find(id)
       end
     end
   end
