@@ -25,7 +25,9 @@ module Registeruz
         @district_id = body['okres']
         @residence_id = body['sidlo']
         @data_origin = body['zdrojDat']
-        @updated_at = Time.parse body['datumPoslednejUpravy'] if body['datumPoslednejUpravy']
+        if body['datumPoslednejUpravy']
+          @updated_at = Time.parse body['datumPoslednejUpravy']
+        end
         @ico = body['ico']
         @dic = body['dic']
         @sk_nace_code_id = body['skNace']

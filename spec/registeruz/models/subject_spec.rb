@@ -1,6 +1,31 @@
-RSpec.describe Registeruz::Models::Collection do
+RSpec.describe Registeruz::Models::Subject do
   describe '.new' do
     it 'loads subjects if ids present' do
+      VCR.use_cassette 'models/subject/object' do
+        @result = Registeruz::Subject.find('1689373')
+      end
+
+      expect(@result.city).to eq('Bratislava - mestská časť Rača')
+      expect(@result.consolidated).to be_falsey
+      expect(@result.data_origin).to eq('SUSR')
+      expect(@result.dic).to be_nil
+      expect(@result.district_id).to eq('103')
+      expect(@result.founded_at).to eq(Time.parse('2017-04-12 00:00:00 +0200'))
+      expect(@result.ico).to eq('50826042')
+      expect(@result.id).to eq(1689373)
+      expect(@result.legal_form_id).to eq('112')
+      expect(@result.name).to eq('UOL SK s.r.o.')
+      expect(@result.organization_size_id).to eq('00')
+      expect(@result.ownership_type_id).to eq('7')
+      expect(@result.postal_code).to eq('83106')
+      expect(@result.region_id).to eq('1')
+      expect(@result.residence_id).to eq('529354')
+      expect(@result.sk_nace_code_id).to eq('69200')
+      expect(@result.street).to eq('Karpatské námestie 10A')
+      expect(@result.updated_at).to eq(Time.parse('2017-11-03 00:00:00 +0100'))
+    end
+
+    it 'loads iadditional subject info' do
       body = {
         'nazovUJ' => "UOL SK s.r.o.",
         'mesto' => "Bratislava - mestská časť Rača",
@@ -21,11 +46,9 @@ RSpec.describe Registeruz::Models::Collection do
         'id' => 1689373
       }
 
-      VCR.use_cassette 'models/subject' do
-        @result = Registeruz::Models::Subject.new(body)
-      end
+      @result = Registeruz::Models::Subject.new(body)
 
-      VCR.use_cassette 'models/subject_additional' do
+      VCR.use_cassette 'models/subject/additional' do
         expect(@result.id).to eq(1689373)
         expect(@result.city).to eq('Bratislava - mestská časť Rača')
         expect(@result.consolidated).to be_falsey

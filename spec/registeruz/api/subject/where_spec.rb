@@ -10,7 +10,7 @@ RSpec.describe Registeruz::Api::Subject::Where do
 
   describe '#where' do
     it 'is able to reach out getting correct answer' do
-      VCR.use_cassette 'requests/where' do
+      VCR.use_cassette 'requests/subject/where' do
         @result = Registeruz::Api::Subject::Where.where(ico: '50826042')
       end
 

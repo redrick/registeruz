@@ -1,0 +1,25 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1689373
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '384'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{"ico":"50826042","nazovUJ":"UOL SK s.r.o.","mesto":"Bratislava - mestská
+        časť Rača","ulica":"Karpatské námestie 10A","psc":"83106","datumPoslednejUpravy":"2017-11-03","datumZalozenia":"2017-04-12","pravnaForma":"112","velkostOrganizacie":"00","druhVlastnictva":"7","kraj":"1","okres":"103","sidlo":"529354","zdrojDat":"SUSR","skNace":"69200","konsolidovana":false,"id":1689373}'
+    http_version: 
+  recorded_at: Sat, 14 Apr 2018 11:21:36 GMT
+recorded_with: VCR 3.0.3

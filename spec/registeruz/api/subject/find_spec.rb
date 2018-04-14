@@ -10,7 +10,7 @@ RSpec.describe Registeruz::Api::Subject::Find do
 
   describe '#find' do
     it 'is able to reach out getting correct answer' do
-      VCR.use_cassette 'requests/find' do
+      VCR.use_cassette 'requests/subject/find' do
         @result = Registeruz::Api::Subject::Find.find('1689373')
       end
 

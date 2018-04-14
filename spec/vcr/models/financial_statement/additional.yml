@@ -1,0 +1,26 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=442175
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '602'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{"idVyrocnychSprav":[2208382,2619266,3020165,3411566],"idUctovnychZavierok":[1,613,557005,558698,698433,697701,1784783,1742215,2082509,2208380,2450565,2619265,2884031,3019938,3279774,3276049,3411565],"skNace":"84220","konsolidovana":true,"datumPoslednejUpravy":"2017-11-30","zdrojDat":"SUSR","nazovUJ":"Ministerstvo
+        obrany Slovenskej republiky","ico":"30845572","mesto":"Bratislava - mestská
+        časť Nové Mesto","ulica":"Kutuzovova 8","psc":"83247","datumZalozenia":"1993-01-01","pravnaForma":"321","velkostOrganizacie":"36","druhVlastnictva":"4","kraj":"1","okres":"103","sidlo":"529346","id":442175}'
+    http_version: 
+  recorded_at: Sat, 14 Apr 2018 11:48:47 GMT
+recorded_with: VCR 3.0.3
