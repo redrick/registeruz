@@ -10,7 +10,7 @@ RSpec.describe Registeruz::Models::Subject do
       expect(@result.data_origin).to eq('SUSR')
       expect(@result.dic).to be_nil
       expect(@result.district_id).to eq('103')
-      expect(@result.founded_at).to eq(Time.parse('2017-04-12 00:00:00 +0200'))
+      expect(@result.founded_at.to_s).to start_with('2017-04-12')
       expect(@result.ico).to eq('50826042')
       expect(@result.id).to eq(1689373)
       expect(@result.legal_form_id).to eq('112')
@@ -22,7 +22,7 @@ RSpec.describe Registeruz::Models::Subject do
       expect(@result.residence_id).to eq('529354')
       expect(@result.sk_nace_code_id).to eq('69200')
       expect(@result.street).to eq('Karpatské námestie 10A')
-      expect(@result.updated_at).to eq(Time.parse('2017-11-03 00:00:00 +0100'))
+      expect(@result.updated_at.to_s).to start_with('2017-11-03')
     end
 
     it 'loads iadditional subject info' do
@@ -55,7 +55,7 @@ RSpec.describe Registeruz::Models::Subject do
         expect(@result.data_origin).to eq('SUSR')
         expect(@result.dic).to be_nil
         expect(@result.district).to eq('Bratislava III')
-        expect(@result.founded_at).to eq(Time.parse('2017-04-12'))
+        expect(@result.founded_at.to_s).to start_with('2017-04-12')
         expect(@result.ico).to eq('50826042')
         expect(@result.legal_form).to eq('Spol. s r. o.')
         expect(@result.name).to eq('UOL SK s.r.o.')
@@ -66,7 +66,7 @@ RSpec.describe Registeruz::Models::Subject do
         expect(@result.residence).to eq('Bratislava-Rača')
         expect(@result.sk_nace_code).to eq('Účtovnícke činnosti')
         expect(@result.street).to eq('Karpatské námestie 10A')
-        expect(@result.updated_at).to eq(Time.parse('2017-11-03'))
+        expect(@result.updated_at.to_s).to start_with('2017-11-03')
       end
     end
   end
